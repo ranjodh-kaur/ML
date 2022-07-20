@@ -1,0 +1,3406 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+\series bold
+\size giant
+\bar under
+\color purple
+Machine Learning Report:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+
+\family sans
+\series bold
+\size huge
+\color black
+Name: Arshpreet Singh
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+
+\family sans
+\series bold
+\size huge
+\color black
+Class: I.T.
+ A1
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+
+\family sans
+\series bold
+\size huge
+\color black
+Urn: 2104478
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+
+\family sans
+\series bold
+\size huge
+\color black
+Crn: 2121021
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+
+\family sans
+\series bold
+\size huge
+\color black
+(Btech) Information Technology
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/arshpreet/OneDrive/Desktop/gne logo.png
+	lyxscale 50
+	scale 50
+	BoundingBox 0bp 0bp 2145bp 235bp
+
+\end_inset
+
+
+\family sans
+\series bold
+\size huge
+\color black
+Guru Nanak Dev Engineering College
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\family sans
+\series bold
+\size huge
+\color black
+Ludhiana, Punjab, India
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Program no.1(Print)
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+To Print using Python:
+\end_layout
+
+\begin_layout LyX-Code
+print("Satshri-akal ji
+\backslash
+n
+\end_layout
+
+\begin_layout LyX-Code
+Name:Arshpreet singh
+\backslash
+n 
+\end_layout
+
+\begin_layout LyX-Code
+CLass:I.T A1
+\backslash
+n 
+\end_layout
+
+\begin_layout LyX-Code
+roll no: 2121021")
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+Output:
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Graphics
+	filename C:/Users/arshpreet/OneDrive/Pictures/to print.jpg
+	lyxscale 80
+	scale 80
+	BoundingBox 0bp 0bp 61bp 159bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Program no.2(If Else)
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+To Use If Else Conditions:
+\end_layout
+
+\begin_layout LyX-Code
+     i = 10 
+\end_layout
+
+\begin_layout LyX-Code
+     if (i == 10): 
+\end_layout
+
+\begin_layout LyX-Code
+               if (i < 15):         
+\end_layout
+
+\begin_layout LyX-Code
+                   print("i is smaller than 15")     
+\end_layout
+
+\begin_layout LyX-Code
+                       if (i < 12):         
+\end_layout
+
+\begin_layout LyX-Code
+                           print("i is smaller than 12 too")    
+\end_layout
+
+\begin_layout LyX-Code
+               else:         print("i is greater than 15"):
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+Output:
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Graphics
+	filename C:/Users/arshpreet/OneDrive/Pictures/if else a.jpg
+	lyxscale 80
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Program no.3(For loop)
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+To use for loop in Python:
+\end_layout
+
+\begin_layout LyX-Code
+marks=[98,99,100] 
+\end_layout
+
+\begin_layout LyX-Code
+for i in range (len(marks)):     
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+marks[i]+=5     
+\end_layout
+
+\begin_layout LyX-Code
+print(marks[i])
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+
+\bar under
+Output:
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Graphics
+	filename C:/Users/arshpreet/OneDrive/Pictures/for.jpg
+	lyxscale 80
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_deeper
+\begin_layout Section
+
+\bar under
+Program no.4(NumPy)
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+To implement NumPy Library
+\end_layout
+
+\begin_layout LyX-Code
+import numpy as np 
+\end_layout
+
+\begin_layout LyX-Code
+marks=[98,75,54,32,99] 
+\end_layout
+
+\begin_layout LyX-Code
+c=np.array((marks)) 
+\end_layout
+
+\begin_layout LyX-Code
+d=np.mean(c) 
+\end_layout
+
+\begin_layout LyX-Code
+e=np.where(c<98) 
+\end_layout
+
+\begin_layout LyX-Code
+filter_arr=c>74 
+\end_layout
+
+\begin_layout LyX-Code
+new_arr=c[filter_arr] 
+\end_layout
+
+\begin_layout LyX-Code
+sort_arr=np.sort(c)
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout LyX-Code
+print(c) 
+\end_layout
+
+\begin_layout LyX-Code
+print(d) 
+\end_layout
+
+\begin_layout LyX-Code
+print(e) 
+\end_layout
+
+\begin_layout LyX-Code
+print(new_arr) 
+\end_layout
+
+\begin_layout LyX-Code
+print(sort_arr)
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+
+\bar under
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/OneDrive/Pictures/numpy.jpg
+	lyxscale 55
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Program no.5(Pandas)
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+To implete Pandas Library:
+\end_layout
+
+\begin_layout LyX-Code
+import pandas as pd 
+\end_layout
+
+\begin_layout LyX-Code
+df = pd.DataFrame({'person_id': [0, 1, 2, 3], 
+\end_layout
+
+\begin_layout LyX-Code
+'age': [21, 25, 62, 43], 
+\end_layout
+
+\begin_layout LyX-Code
+'height': [1.61, 1.87, 1.49, 2.01]} ).set_index('person_id') 
+\end_layout
+
+\begin_layout LyX-Code
+print(df)
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+Output:
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Graphics
+	filename C:/Users/arshpreet/OneDrive/Pictures/pandas.jpg
+	lyxscale 80
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Program no.6(MatploLib)
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+To implement Matplolib Library:
+\end_layout
+
+\begin_layout LyX-Code
+import matplotlib.pyplot as plt 
+\end_layout
+
+\begin_layout LyX-Code
+x = [1,2,3]
+\end_layout
+
+\begin_layout LyX-Code
+y = [2,4,1]
+\end_layout
+
+\begin_layout LyX-Code
+plt.plot(x, y) 
+\end_layout
+
+\begin_layout LyX-Code
+plt.xlabel('x - axis')
+\end_layout
+
+\begin_layout LyX-Code
+plt.ylabel('y - axis') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.title('My first graph!') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.show() 
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/OneDrive/Pictures/Figure_1.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Program no.7(Scikit Learn)
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+To implement Scikit Learn:
+\end_layout
+
+\begin_layout LyX-Code
+from sklearn.datasets import load_iris 
+\end_layout
+
+\begin_layout LyX-Code
+iris = load_iris() 
+\backslash
+
+\end_layout
+
+\begin_layout LyX-Code
+X = iris.data 
+\end_layout
+
+\begin_layout LyX-Code
+y = iris.target 
+\end_layout
+
+\begin_layout LyX-Code
+feature_names = iris.feature_names
+\end_layout
+
+\begin_layout LyX-Code
+target_names = iris.target_names 
+\end_layout
+
+\begin_layout LyX-Code
+print("Feature names:", feature_names) 
+\end_layout
+
+\begin_layout LyX-Code
+print("Target names:", target_names)
+\end_layout
+
+\begin_layout LyX-Code
+print("
+\backslash
+nFirst 10 rows of X:
+\backslash
+n", X[:10])
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/OneDrive/Pictures/scikit learn.jpg
+	lyxscale 37
+	scale 37
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\bar under
+Report On Aritificial Intelligence(A.I):
+\end_layout
+
+\begin_layout Subsection
+What is AI?
+\end_layout
+
+\begin_layout Paragraph
+Artificial intelligence is the simulation of human intelligence processes
+ by machines, especially computer systems.
+\end_layout
+
+\begin_layout Paragraph
+Specific applications of AI include expert systems, natural language processing,
+ speech recognition and machine vision.
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Graphics
+	filename C:/Users/arshpreet/Downloads/download.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Types of AI:
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Strong AI vs.
+ weak AI
+\end_layout
+
+\begin_layout Standard
+Strong AI vs.
+ weak AI AI can be categorized as either weak or strong.
+\end_layout
+
+\begin_layout Standard
+Weak AI, also known as narrow AI, is an AI system that is designed and trained
+ to complete 
+\end_layout
+
+\begin_layout Standard
+a specific task.
+ Industrial robots and virtual personal assistants, such as Apple's Siri,
+ use weak AI.
+ 
+\end_layout
+
+\begin_layout Standard
+Strong AI, also known as artificial general intelligence (AGI), describes
+ programming that can
+\end_layout
+
+\begin_layout Standard
+replicate the cognitive abilities of the human brain.
+ When presented with an unfamiliar task,
+\end_layout
+
+\begin_layout Standard
+a strong AI system can use fuzzy logic to apply knowledge from one domain
+ to another and
+\end_layout
+
+\begin_layout Standard
+find a solution autonomously.
+ In theory, a strong AI program should be able to pass both 
+\end_layout
+
+\begin_layout Standard
+a Turing Test and the Chinese room test.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Python/enterpriseai-evolution_of_ai-f.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Tools for Applications of AI:
+\end_layout
+
+\begin_layout Paragraph
+AI is incorporated into a variety of different types of technology.
+ Here are six examples:
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\bar under
+Automation.
+
+\series default
+\bar default
+ 
+\end_layout
+
+\begin_layout Address
+When paired with AI technologies, automation tools can expand the volume
+ and types of tasks performed.
+\end_layout
+
+\begin_layout Address
+An example is robotic process automation (RPA), a type of software that
+ automates repetitive,
+\end_layout
+
+\begin_layout Address
+rules-based data processing tasks traditionally done by humans.
+ 
+\end_layout
+
+\begin_layout Address
+When combined with machine learning and emerging AI tools, RPA can automate
+ bigger portions of enterprise jobs, 
+\end_layout
+
+\begin_layout Address
+enabling RPA's tactical bots to pass along intelligence from AI and respond
+ to process changes.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\bar under
+Machine learning
+\series default
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Verse
+This is the science of getting a computer to act without programming.
+ 
+\end_layout
+
+\begin_layout Verse
+Deep learning is a subset of machine learning that, in very simple terms,
+\end_layout
+
+\begin_layout Verse
+can be thought of as the automation of predictive analytics.
+ 
+\end_layout
+
+\begin_layout Verse
+There are three types of machine learning algorithms: 
+\end_layout
+
+\begin_layout Verse
+
+\bar under
+Supervised learning
+\bar default
+.
+ Data sets are labeled so that patterns can be detected and used to label
+ new data sets.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\bar under
+Unsupervised learning
+\bar default
+.
+ Data sets aren't labeled and are sorted according to similarities or difference
+s.
+\end_layout
+
+\begin_layout Verse
+
+\bar under
+Reinforcement learning.
+
+\bar default
+ Data sets aren't labeled but, after performing an action or several actions,
+\end_layout
+
+\begin_layout Verse
+the AI system is given feedback.
+\end_layout
+
+\begin_layout Subsubsection
+
+\bar under
+Machine vision
+\bar default
+.
+ 
+\end_layout
+
+\begin_layout Verse
+This technology gives a machine the ability to see.
+ Machine vision captures and analyzes visual
+\end_layout
+
+\begin_layout Verse
+information using a camera, analog-to-digital conversion and digital signal
+ processing
+\end_layout
+
+\begin_layout Verse
+.
+ It is often compared to human eyesight, but machine vision isn't bound
+ by biology and can
+\end_layout
+
+\begin_layout Verse
+be programmed to see through walls, for example.
+ It is used in a range of applications from 
+\end_layout
+
+\begin_layout Verse
+signature identification to medical image analysis.
+ 
+\end_layout
+
+\begin_layout Verse
+Computer vision, which is focused on machine-based image processing, is
+ often conflated with machine vision.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\bar under
+Natural language processing (NLP).
+ 
+\end_layout
+
+\begin_layout Verse
+This is the processing of human language by a computer program.
+ One of the older and best-known examples
+\end_layout
+
+\begin_layout Verse
+of NLP is spam detection, which looks at the subject line and text of an
+ email and decides if it's junk.
+ 
+\end_layout
+
+\begin_layout Verse
+Current approaches to NLP are based on machine learning.
+ NLP tasks include text translation, sentiment analysis and speech recognition.
+\end_layout
+
+\begin_layout Subsubsection
+
+\bar under
+Robotics.
+ 
+\end_layout
+
+\begin_layout Verse
+This field of engineering focuses on the design and manufacturing of robots.
+ 
+\end_layout
+
+\begin_layout Verse
+Robots are often used to perform tasks that are difficult for humans to
+ perform or 
+\end_layout
+
+\begin_layout Verse
+perform consistently.
+ For example, robots are used in assembly lines for car production or by
+ 
+\end_layout
+
+\begin_layout Verse
+NASA to move large objects in space.
+ Researchers are also using machine learning to build robots that can interact
+ in social settings.
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\bar under
+What are the applications of AI? 
+\end_layout
+
+\begin_layout Verse
+Artificial intelligence has made its way into a wide variety of markets.
+ Here are nine examples.
+\end_layout
+
+\begin_layout Subsection
+AI in healthcare.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/Downloads/1-13830.jpg
+	lyxscale 0
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+The biggest bets are on improving patient outcomes and reducing costs.
+ 
+\end_layout
+
+\begin_layout Verse
+Companies are applying machine learning to make better and faster diagnoses
+ than humans.
+ 
+\end_layout
+
+\begin_layout Verse
+One of the best-known healthcare technologies is IBM Watson.
+ It understands natural language 
+\end_layout
+
+\begin_layout Verse
+and can respond to questions asked of it.
+ The system mines patient data and other available data sources
+\end_layout
+
+\begin_layout Verse
+to form a hypothesis, which it then presents with a confidence scoring schema.
+ Other AI applications
+\end_layout
+
+\begin_layout Verse
+include using online virtual health assistants and chatbots to help patients
+ and healthcare customers
+\end_layout
+
+\begin_layout Verse
+find medical information, schedule appointments, understand the billing
+ process and complete other
+\end_layout
+
+\begin_layout Verse
+administrative processes.
+ An array of AI technologies is also being used to predict, fight and
+\end_layout
+
+\begin_layout Verse
+understand pandemics such as COVID-19.
+\end_layout
+
+\begin_layout Subsection
+AI in business.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/Downloads/Top-Applications-for-Using-Artificial-Intelligence-in-Business.webp
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+Machine learning algorithms are being integrated into analytics and customer
+ relationship 
+\end_layout
+
+\begin_layout Verse
+management (CRM) platforms to uncover information on how to better serve
+ customers.
+ 
+\end_layout
+
+\begin_layout Verse
+Chatbots have been incorporated into websites to provide immediate service
+ to customers.
+ 
+\end_layout
+
+\begin_layout Verse
+Automation of job positions has also become a talking point among academics
+ and IT analysts.
+\end_layout
+
+\begin_layout Subsection
+AI in education.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/Downloads/article-1-featured-2100x1200.png
+	lyxscale 10
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+AI can automate grading, giving educators more time.
+ It can assess students and adapt to 
+\end_layout
+
+\begin_layout Verse
+their needs, helping them work at their own pace.
+ AI tutors can provide additional support to 
+\end_layout
+
+\begin_layout Verse
+students, ensuring they stay on track.
+ And it could change where and how students learn, 
+\end_layout
+
+\begin_layout Verse
+perhaps even replacing some teachers.
+\end_layout
+
+\begin_layout Subsection
+AI in finance.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/Downloads/mlf1.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+AI in personal finance applications, such as Intuit Mint or TurboTax, is
+ disrupting financial institutions.
+ 
+\end_layout
+
+\begin_layout Verse
+Applications such as these collect personal data and provide financial advice.
+ Other programs, such as IBM Watson,
+\end_layout
+
+\begin_layout Verse
+have been applied to the process of buying a home.
+ Today, artificial intelligence software performs much 
+\end_layout
+
+\begin_layout Verse
+of the trading on Wall Street.AI in law.
+ The discovery process -- sifting through documents -- in law is often 
+\end_layout
+
+\begin_layout Verse
+overwhelming for humans.
+ Using AI to help automate the legal industry's labor-intensive processes
+ is saving
+\end_layout
+
+\begin_layout Verse
+time and improving client service.
+ Law firms are using machine learning to describe data and predict outcomes,
+\end_layout
+
+\begin_layout Verse
+computer vision to classify and extract information from documents and natural
+ language 
+\end_layout
+
+\begin_layout Verse
+processing to interpret requests for information.
+\end_layout
+
+\begin_layout Subsection
+AI in manufacturing.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/Downloads/How-Artificial-Intelligence-Is-Revolutionizing-Manufacturing.webp
+	lyxscale 10
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+Manufacturing has been at the forefront of incorporating robots into the
+ workflow.
+ 
+\end_layout
+
+\begin_layout Verse
+For example, the industrial robots that were at one time programmed to perform
+ single tasks and 
+\end_layout
+
+\begin_layout Verse
+separated from human workers, increasingly function as cobots: Smaller,
+ multitasking robots that 
+\end_layout
+
+\begin_layout Verse
+collaborate with humans and take on responsibility for more parts of the
+ job in warehouses,
+\end_layout
+
+\begin_layout Verse
+factory floors and other workspaces.
+\end_layout
+
+\begin_layout Subsection
+AI in banking.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/arshpreet/Downloads/AI-in-Baking-.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+Banks are successfully employing chatbots to make their customers aware
+ of services
+\end_layout
+
+\begin_layout Verse
+and offerings and to handle transactions that don't require human intervention.
+ 
+\end_layout
+
+\begin_layout Verse
+AI virtual assistants are being used to improve and cut the costs of compliance
+ with banking regulations.
+\end_layout
+
+\begin_layout Verse
+Banking organizations are also using AI to improve their decision-making
+ for loans, 
+\end_layout
+
+\begin_layout Verse
+and to set credit limits and identify investment opportunities.
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Different Tools of A.I.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+Pytorch:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename tools pics/pytorch logo.jpeg
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+What Is PyTorch, and How Does It Work?
+\end_layout
+
+\begin_layout Verse
+PyTorch is an optimized Deep Learning tensor library based on Python and
+ Torch and is mainly used for applications using GPUs and CPUs.
+ PyTorch is favored over other Deep Learning frameworks like TensorFlow
+ and Keras since it uses dynamic computation graphs and is completely Pythonic.
+ It allows scientists, developers, and neural network debuggers to run and
+ test portions of the code in real-time.
+ Thus, users don’t have to wait for the entire code to be implemented to
+ check if a part of the code works or not.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+The two main features of PyTorch are:
+\end_layout
+
+\begin_layout Itemize
+Tensor Computation (similar to NumPy) with strong GPU (Graphical Processing
+ Unit) acceleration support Automatic 
+\end_layout
+
+\begin_layout Itemize
+Differentiation for creating and training deep neural networks.
+\end_layout
+
+\begin_layout Subsubsection
+Basics of PyTorch
+\end_layout
+
+\begin_layout Standard
+The basic PyTorch operations are pretty similar to Numpy.
+ Let’s understand the basics first.
+\end_layout
+
+\begin_layout Itemize
+Introduction to Tensors
+\end_layout
+
+\begin_layout Verse
+In machine learning, when we represent data, we need to do that numerically.
+ A tensor is simply a container that can hold data in multiple dimensions.
+ In mathematical terms, however, a tensor is a fundamental unit of data
+ that can be used as the foundation for advanced mathematical operations.
+ It can be a number, vector, matrix, or multi-dimensional array like Numpy
+ arrays.
+ Tensors can also be handled by the CPU or GPU to make operations faster.
+ There are various types of tensors like Float Tensor, Double Tensor, Half
+ Tensor, Int Tensor, and Long Tensor, but PyTorch uses the 32-bit Float
+ Tensor as the default type.
+ 
+\end_layout
+
+\begin_layout Itemize
+Mathematical Operations
+\end_layout
+
+\begin_layout Verse
+The codes to perform mathematical operations are the same in PyTorch as
+ in Numpy.
+ Users need to initialize two tensors and then perform operations like addition,
+ subtraction, multiplication, and division on them.
+ 
+\end_layout
+
+\begin_layout Itemize
+Matrix Initialization and Matrix Operations
+\end_layout
+
+\begin_layout Verse
+To initialize a matrix with random numbers in PyTorch, use the function
+ randn() that gives a tensor filled with random numbers from a standard
+ normal distribution.
+ Setting the random seed at the beginning will generate the same numbers
+ every time you run this code.
+ Basic matrix operations and transpose operation in PyTorch are also similar
+ to NumPy.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\bar under
+Common PyTorch Modules:
+\end_layout
+
+\begin_layout Standard
+In PyTorch, modules are used to represent neural networks.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+Autograd
+\end_layout
+
+\begin_layout Verse
+The autograd module is PyTorch’s automatic differentiation engine that helps
+ to compute the gradients in the forward pass in quick time.
+ Autograd generates a directed acyclic graph where the leaves are the input
+ tensors while the roots are the output tensors.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+Optim
+\end_layout
+
+\begin_layout Verse
+The Optim module is a package with pre-written algorithms for optimizers
+ that can be used to build neural networks.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+nn
+\end_layout
+
+\begin_layout Verse
+The nn module includes various classes that help to build neural network
+ models.
+ All modules in PyTorch subclass the nn module
+\end_layout
+
+\begin_layout Section
+
+\series bold
+\bar under
+TensorFlow:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename tools pics/tensor flow.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+TensorFlow is a free and open-source software library for machine learning
+ and artificial intelligence.
+ 
+\end_layout
+
+\begin_layout Verse
+It can be used across a range of tasks but has a particular focus on training
+ and inference of deep neural networks.
+\end_layout
+
+\begin_layout Verse
+TensorFlow was developed by the Google Brain team for internal Google use
+ in research and production.
+\end_layout
+
+\begin_layout Verse
+The initial version was released under the Apache License 2.0 in 2015.[1][9]
+ Google released the updated version of TensorFlow, 
+\end_layout
+
+\begin_layout Verse
+named TensorFlow 2.0, in September 2019.TensorFlow can be used in a wide variety
+ of programming languages,
+\end_layout
+
+\begin_layout Verse
+most notably Python, as well as Javascript, C++, and Java.
+\end_layout
+
+\begin_layout Verse
+This flexibility lends itself to a range of applications in many different
+ sectors.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\bar under
+Tensor processing unit (TPU)
+\series default
+\bar default
+ Tensor processing unit:
+\end_layout
+
+\begin_layout Verse
+In May 2016, Google announced its Tensor processing unit (TPU), an application-s
+pecific integrated circuit (ASIC, a hardware chip) built specifically for
+ machine learning and tailored for TensorFlow.
+ A TPU is a programmable AI accelerator designed to provide high throughput
+ of low-precision arithmetic (e.g., 8-bit), and oriented toward using or running
+ models rather than training them.
+ Google announced they had been running TPUs inside their data centers for
+ more than a year, and had found them to deliver an order of magnitude better-op
+timized performance per watt for machine learning.[22]
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+Features :
+\end_layout
+
+\begin_layout Subsubsection
+AutoDifferentiation:
+\end_layout
+
+\begin_layout Verse
+AutoDifferentiation is the process of automatically calculating the gradient
+ vector of a model with respect to each of its parameters.
+ With this feature, TensorFlow can automatically compute the gradients for
+ the parameters in a model, which is useful to algorithms such as backpropagatio
+n which require gradients to optimize performance.[32] To do so, the framework
+ must keep track of the order of operations done to the input Tensors in
+ a model, and then compute the gradients with respect to the appropriate
+ parameters.[32] 
+\end_layout
+
+\begin_layout Subsubsection
+Eager execution:
+\end_layout
+
+\begin_layout Verse
+TensorFlow includes an “eager execution” mode, which means that operations
+ are evaluated immediately as opposed to being added to a computational
+ graph which is executed later.[33] Code executed eagerly can be examined
+ step-by step-through a debugger, since data is augmented at each line of
+ code rather than later in a computational graph.[33] This execution paradigm
+ is considered to be easier to debug because of its step by step transparency.[33
+] Distribute
+\end_layout
+
+\begin_layout Verse
+In both eager and graph executions, TensorFlow provides an API for distributing
+ computation across multiple devices with various distribution strategies.[34]
+ This distributed computing can often speed up the execution of training
+ and evaluating of TensorFlow models and is a common practice in the field
+ of AI.[34][35] 
+\end_layout
+
+\begin_layout Subsubsection
+Losses:
+\end_layout
+
+\begin_layout Verse
+To train and assess models, TensorFlow provides a set of loss functions
+ (also known as cost functions).[36] Some popular examples include mean squared
+ error (MSE) and binary cross entropy (BCE).[36] These loss functions compute
+ the “error” or “difference” between a model’s output and the expected output
+ (more broadly, the difference between two tensors).
+ For different datasets and models, different losses are used to prioritize
+ certain aspects of performance.
+\end_layout
+
+\begin_layout Subsubsection
+Metrics
+\end_layout
+
+\begin_layout Verse
+In order to assess the performance of machine learning models, TensorFlow
+ gives API access to commonly used metrics.
+ Examples include various accuracy metrics (binary, categorical, sparse
+ categorical) along with other metrics such as Precision, Recall, and Intersecti
+on-over-Union (IoU).[37] 
+\end_layout
+
+\begin_layout Subsubsection
+TF.nn
+\end_layout
+
+\begin_layout Verse
+TensorFlow.nn is a module for executing primitive neural network operations
+ on models.[38] Some of these operations include variations of convolutions
+ (1/2/3D, Atrous, depthwise), activation functions (Softmax, RELU, GELU,
+ Sigmoid, etc.) and their variations, and other Tensor operations (max-pooling,
+ bias-add, etc.).[38] 
+\end_layout
+
+\begin_layout Subsubsection
+Optimizers
+\end_layout
+
+\begin_layout Verse
+TensorFlow offers a set of optimizers for training neural networks, including
+ ADAM, ADAGRAD, and Stochastic Gradient Descent (SGD).[39] When training
+ a model, different optimizers offer different modes of parameter tuning,
+ often affecting a model’s convergence and performance.[40] 
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Scikit-learn:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename tools pics/1200px-Scikit_learn_logo_small.svg.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Verse
+Scikit-learn (formerly scikits.learn and also known as sklearn) is a free
+ software machine learning library for the Python programming language.[3]
+ It features various classification, regression and clustering algorithms
+ including support-vector machines, random forests, gradient boosting, k-means
+ and DBSCAN, and is designed to interoperate with the Python numerical and
+ scientific libraries NumPy and SciPy.
+ Scikit-learn is a NumFOCUS fiscally sponsored project.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+Features:
+\end_layout
+
+\begin_layout Subsubsection
+Datasets
+\end_layout
+
+\begin_layout Standard
+Scikit-learn comes with several inbuilt datasets such as the iris dataset,
+ house prices dataset, diabetes dataset, etc.
+\end_layout
+
+\begin_layout Standard
+The main functions of these datasets are that they are easy to understand
+ and you can directly implement ML models on them.
+ 
+\end_layout
+
+\begin_layout Standard
+These datasets are good for beginners.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Data Splitting
+\end_layout
+
+\begin_layout Standard
+Sklearn provided the functionality to split the dataset for training and
+ testing.
+ 
+\end_layout
+
+\begin_layout Standard
+Splitting the dataset is essential for an unbiased evaluation of prediction
+ performance.
+ 
+\end_layout
+
+\begin_layout Standard
+We can define what proportion of our data to be included in train and test
+ datasets.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Linear Regression
+\end_layout
+
+\begin_layout Standard
+This supervised ML model is used when the output variable 
+\end_layout
+
+\begin_layout Standard
+is continuous and it follows linear relation with dependent variables.
+ 
+\end_layout
+
+\begin_layout Standard
+It can be used to forecast sales in the coming months by analyzing the sales
+ data for previous months.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Decision Trees
+\end_layout
+
+\begin_layout Standard
+A Decision Tree is a powerful tool that can be used for both classification
+ and regression problems.
+ 
+\end_layout
+
+\begin_layout Standard
+It uses a tree-like model to make decisions and predict the output.
+ It consists of roots and nodes.
+ 
+\end_layout
+
+\begin_layout Standard
+Roots represent the decision to split and nodes represent an output variable
+ value.
+ A decision tree is an important concept.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Supervised Learning techniques:
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\bar under
+KNN(K-Nearest Neighbours):
+\end_layout
+
+\begin_layout Subsubsection
+Points to Note:
+\end_layout
+
+\begin_layout Itemize
+K-Nearest Neighbour is one of the simplest Machine Learning algorithms based
+ on
+\series bold
+ Supervised Learning technique
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+K-NN algorithm assumes the similarity between the new case/data and available
+ cases and put the new case into the category that is most similar to the
+ available categories.
+ 
+\end_layout
+
+\begin_layout Itemize
+K-NN algorithm stores all the available data and classifies a new data point
+ based on the similarity.
+ This means when new data appears then it can be easily classified into
+ a well suite category by using K- NN algorithm.
+ K-NN algorithm can be used for Regression as well as for Classification
+ but mostly it is used for the 
+\series bold
+Classification problems
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+K-NN is a
+\series bold
+ non-parametric algorithm
+\series default
+, which means it does not make any assumption on underlying data.
+\end_layout
+
+\begin_layout Itemize
+It is also called a lazy 
+\series bold
+learner algorithm
+\series default
+ because it does not learn from the training set immediately instead it
+ stores the dataset and at the time of classification, it performs an action
+ on the dataset.
+\end_layout
+
+\begin_layout Subsubsection
+Example:
+\end_layout
+
+\begin_layout Verse
+Suppose, we have an image of a creature that looks similar to cat and dog,
+ but we want to know either it is a cat or dog.
+\end_layout
+
+\begin_layout Verse
+So for this identification, we can use the KNN algorithm, as it works on
+ a similarity measure.
+ 
+\end_layout
+
+\begin_layout Verse
+Our KNN model will find the similar features of the new data set to the
+ cats and dogs images and based on the most similar features it will put
+ it in either cat or dog category.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename knn kuta bila.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Why do we need a K-NN Algorithm? 
+\end_layout
+
+\begin_layout Standard
+Suppose there are two categories, i.e., Category A and Category B, and we
+ have a new data point x1, so this data point will lie in which of these
+ categories.
+\end_layout
+
+\begin_layout Standard
+To solve this type of problem, we need a K-NN algorithm.
+ With the help of K-NN, we can easily identify the category or class of
+ a particular dataset.
+\end_layout
+
+\begin_layout Standard
+Consider the below diagram:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename knn graph.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+How does K-NN work? 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The K-NN working can be explained on the basis of the below algorithm:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Step-1:
+\series default
+ Select the number K of the neighbors 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Step-2:
+\series default
+ Calculate the Euclidean distance of K number of neighbors 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Step-3: 
+\series default
+Take the K nearest neighbors as per the calculated Euclidean distance.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Step-4:
+\series default
+ Among these k neighbors, count the number of the data points in each category.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Step-5
+\series default
+: Assign the new data points to that category for which the number of the
+ neighbor is maximum.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Step-6
+\series default
+: Our model is ready.
+\end_layout
+
+\begin_layout Subsubsection
+KNN Code:
+\end_layout
+
+\begin_layout LyX-Code
+import numpy as np 
+\end_layout
+
+\begin_layout LyX-Code
+import matplotlib.pyplot as plt
+\end_layout
+
+\begin_layout LyX-Code
+import pandas as pd
+\end_layout
+
+\begin_layout LyX-Code
+from sklearn.model_selection import train_test_split
+\end_layout
+
+\begin_layout LyX-Code
+X_train, X_test, y_train, y_test = train_test_split
+\end_layout
+
+\begin_layout LyX-Code
+(X, y, test_size = 0.25, random_state = 0)
+\end_layout
+
+\begin_layout LyX-Code
+print(y_train)
+\end_layout
+
+\begin_layout LyX-Code
+print(X_train)
+\end_layout
+
+\begin_layout LyX-Code
+print(y_test)
+\end_layout
+
+\begin_layout LyX-Code
+print(y_test)
+\end_layout
+
+\begin_layout LyX-Code
+from sklearn.preprocessing import StandardScaler
+\end_layout
+
+\begin_layout LyX-Code
+sc = StandardScaler() 
+\end_layout
+
+\begin_layout LyX-Code
+X_train = sc.fit_transform(X_train) 
+\end_layout
+
+\begin_layout LyX-Code
+X_test = sc.transform(X_test)
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+Training the K-NN model on the Training set
+\end_layout
+
+\begin_layout LyX-Code
+from sklearn.neighbors import KNeighborsClassifier 
+\end_layout
+
+\begin_layout LyX-Code
+classifier = KNeighborsClassifier(n_neighbors = 5, 
+\end_layout
+
+\begin_layout LyX-Code
+metric = 'minkowski', p = 2) classifier.fit(X_train, y_train)
+\end_layout
+
+\begin_layout LyX-Code
+print(classifier.predict(sc.transform([[30,87000]])))
+\end_layout
+
+\begin_layout LyX-Code
+y_pred = classifier.predict(X_test) 
+\end_layout
+
+\begin_layout LyX-Code
+print(np.concatenate((y_pred.reshape(len(y_pred),1),
+\end_layout
+
+\begin_layout LyX-Code
+y_test.reshape(len(y_test),1)),1))
+\end_layout
+
+\begin_layout Subsubsection
+Output:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+KNN Tranning set results:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename knnnnnn.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+KNN Test set results:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename knnnn 2.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+SVM (Support Vector Machine):
+\end_layout
+
+\begin_layout Subsubsection
+Points to Note: 
+\end_layout
+
+\begin_layout Itemize
+Support Vector Machine or SVM is one of the most
+\series bold
+ popular Supervised Learning algorithms
+\series default
+, which is used for Classification as well as Regression problems.
+ 
+\end_layout
+
+\begin_layout Itemize
+However, primarily, it is used for 
+\series bold
+Classification
+\series default
+ problems in Machine Learning.
+\end_layout
+
+\begin_layout Itemize
+The goal of the SVM algorithm is to create the best line or 
+\series bold
+decision boundary
+\series default
+ that can segregate n-dimensional space into classes 
+\end_layout
+
+\begin_layout Itemize
+so that we can easily put the new data point in the correct category in
+ the future.
+ This best decision boundary is called a 
+\series bold
+HYPERPLANE.
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+SVM chooses the extreme points/vectors that help in creating the hyperplane.
+ These extreme cases are called as 
+\series bold
+support vectors
+\series default
+, 
+\end_layout
+
+\begin_layout Itemize
+And hence algorithm is termed as Support Vector Machine.
+ Consider the below diagram in which there are two different categories
+ that 
+\end_layout
+
+\begin_layout Itemize
+are classified using a decision boundary or hyperplane:
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename svm graph.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Example: 
+\end_layout
+
+\begin_layout Verse
+SVM can be understood with the example that we have used in the KNN classifier.
+\end_layout
+
+\begin_layout Verse
+Suppose we see a strange cat that also has some features of dogs, so if
+ we want a model that can accurately identify whether it is a cat or dog,
+\end_layout
+
+\begin_layout Verse
+so such a model can be created by using the SVM algorithm.
+ 
+\end_layout
+
+\begin_layout Verse
+We will first train our model with lots of images of cats and dogs so that
+ it can learn about different features of cats and dogs,
+\end_layout
+
+\begin_layout Verse
+and then we test it with this strange creature.
+ So as support vector creates a decision boundary between these two data
+ (cat and dog) and 
+\end_layout
+
+\begin_layout Verse
+choose extreme cases (support vectors), it will see the extreme case of
+ cat and dog.
+ On the basis of the support vectors, it will classify it as a cat.
+\end_layout
+
+\begin_layout Verse
+Consider the below diagram:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename svm kuta billa.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Hyperplane and Support Vectors in the SVM algorithm: 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Hyperplane:
+\end_layout
+
+\begin_layout Verse
+There can be multiple lines/decision boundaries to segregate the classes
+ in n-dimensional space, 
+\end_layout
+
+\begin_layout Verse
+but we need to find out the best decision boundary that helps to classify
+ the data points.
+ 
+\end_layout
+
+\begin_layout Verse
+This best boundary is known as the hyperplane of SVM.
+\end_layout
+
+\begin_layout Verse
+The dimensions of the hyperplane depend on the features present in the dataset,
+\end_layout
+
+\begin_layout Verse
+which means if there are 2 features (as shown in image), then hyperplane
+ will be a straight line.
+ And if there are 3 features,
+\end_layout
+
+\begin_layout Verse
+then hyperplane will be a 2-dimension plane.
+\end_layout
+
+\begin_layout Verse
+We always create a hyperplane that has a maximum margin, which means the
+ maximum distance between the data points.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Support Vectors:
+\end_layout
+
+\begin_layout Verse
+The data points or vectors that are the closest to the hyperplane and which
+ affect the
+\end_layout
+
+\begin_layout Verse
+position of the hyperplane are termed as Support Vector.
+ 
+\end_layout
+
+\begin_layout Verse
+Since these vectors support the hyperplane, hence called a Support vector.
+\end_layout
+
+\begin_layout Subsubsection
+SVM Code:
+\end_layout
+
+\begin_layout LyX-Code
+from matplotlib.colors import ListedColormap 
+\end_layout
+
+\begin_layout LyX-Code
+x_set, y_set = x_train, y_train x1,
+\end_layout
+
+\begin_layout LyX-Code
+x2 = nm.meshgrid(nm.arange(start = x_set[:, 0].min()-1, 
+\end_layout
+
+\begin_layout LyX-Code
+stop = x_set[:, 0].max() + 1, step =0.01), 
+\end_layout
+
+\begin_layout LyX-Code
+nm.arange(start = x_set[:, 1].min() - 1, 
+\end_layout
+
+\begin_layout LyX-Code
+stop = x_set[:, 1].max() + 1,step0.01))mtp.contourf(x1, x2,
+\end_layout
+
+\begin_layout LyX-Code
+classifier.predict(nm.array([x1.ravel(), 
+\end_layout
+
+\begin_layout LyX-Code
+x2.ravel()]).T).reshape(x1.shape), alpha = 0.75, 
+\end_layout
+
+\begin_layout LyX-Code
+cmap = ListedColormap(('red', 'green'))) mtp.xlim(x1.min(),
+\end_layout
+
+\begin_layout LyX-Code
+x1.max()) mtp.ylim(x2.min(), x2.max()) 
+\end_layout
+
+\begin_layout LyX-Code
+for i, j in enumerate(nm.unique(y_set)): mtp.scatter(x_set[y_set == j, 0],
+ 
+\end_layout
+
+\begin_layout LyX-Code
+x_set[y_set == j, 1], 
+\end_layout
+
+\begin_layout LyX-Code
+c = ListedColormap(('red', 'green'))(i), label = j)
+\end_layout
+
+\begin_layout LyX-Code
+mtp.title('SVM classifier (Training set)')
+\end_layout
+
+\begin_layout LyX-Code
+mtp.xlabel('Age') 
+\end_layout
+
+\begin_layout LyX-Code
+mtp.ylabel('Estimated Salary') 
+\end_layout
+
+\begin_layout LyX-Code
+mtp.legend() 
+\end_layout
+
+\begin_layout LyX-Code
+mtp.show()
+\end_layout
+
+\begin_layout Subsubsection
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename output svm.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+Confusion Matrix in Machine Learning
+\bar default
+ :
+\end_layout
+
+\begin_layout Verse
+The confusion matrix is a matrix used to determine the performance of the
+ classification models
+\end_layout
+
+\begin_layout Verse
+for a given set of test data.
+ It can only be determined if the true values for test data are known.
+ 
+\end_layout
+
+\begin_layout Verse
+The matrix itself can be easily understood, but the related terminologies
+ may be confusing.
+ 
+\end_layout
+
+\begin_layout Verse
+Since it shows the errors in the model performance in the form of a matrix,
+ hence also known as an error matrix.
+\end_layout
+
+\begin_layout Verse
+Some features of Confusion matrix are given below:
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Verse
+For the 2 prediction classes of classifiers, 
+\end_layout
+
+\begin_layout Verse
+the matrix is of 2*2 table, for 3 classes, it is 3*3 table, and so on.
+\end_layout
+
+\begin_layout Verse
+The matrix is divided into two dimensions, that are predicted values and
+ actual values 
+\end_layout
+
+\begin_layout Verse
+along with the total number of predictions.
+ Predicted values are those values, which are predicted by the model,
+\end_layout
+
+\begin_layout Verse
+and actual values are the true values for the given observations.
+ 
+\end_layout
+
+\begin_layout Verse
+It looks like the below table: Confusion Matrix in Machine Learning
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename table confusion matrice.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Making the Confusion Matrix:
+\end_layout
+
+\begin_layout LyX-Code
+from sklearn.metrics import confusion_matrix,
+\end_layout
+
+\begin_layout LyX-Code
+accuracy_score cm = confusion_matrix(y_test, y_pred) 
+\end_layout
+
+\begin_layout LyX-Code
+print(cm)
+\end_layout
+
+\begin_layout LyX-Code
+accuracy_score(y_test, y_pred)
+\end_layout
+
+\begin_layout Subsubsection
+Output:
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+[[64 4]
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+[ 3 29]] 
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+0.93
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+Decision Tree Classification:
+\end_layout
+
+\begin_layout Itemize
+Decision Tree is a 
+\series bold
+Supervised learning technique
+\series default
+ that can be used for both classification and Regression problems,but mostly
+ it is preferred for solving Classification problems.
+ 
+\end_layout
+
+\begin_layout Itemize
+It is a 
+\series bold
+tree-structured classifier
+\series default
+, where internal nodes represent the features of a dataset, 
+\series bold
+branches
+\series default
+ represent the decision rules and each 
+\series bold
+leaf node
+\series default
+ represents the outcome.
+ In a 
+\series bold
+Decision tree
+\series default
+, there are two nodes, which are the
+\series bold
+ Decision Node
+\series default
+ and 
+\series bold
+Leaf Node
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Decision nodes are used to make any decision and have multiple branches,
+ whereas Leaf nodes are the output of those decisions and do not contain
+ any further branches.
+ The decisions or the test are performed
+\series bold
+ on the basis of features 
+\series default
+of the given dataset.
+ It is a graphical representation for getting all the possible solutions
+ to a problem/decision based on given conditions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename decision tree sjhas.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Decision Tree Terminologies 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Root Node: 
+\series default
+Root node is from where the decision tree starts.
+ It represents the entire dataset, which further gets divided into two or
+ more homogeneous sets.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Leaf Node:
+\series default
+ Leaf nodes are the final output node, and the tree cannot be segregated
+ further after getting a leaf node.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Splitting:
+\series default
+ Splitting is the process of dividing the decision node/root node into sub-nodes
+ according to the given conditions.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Branch/Sub Tree:
+\series default
+ A tree formed by splitting the tree.
+ Pruning: Pruning is the process of removing the unwanted branches from
+ the tree.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Parent/Child node:
+\series default
+ The root node of the tree is called the parent node, and other nodes are
+ called the child nodes.
+\end_layout
+
+\begin_layout Subsubsection
+Example:
+\end_layout
+
+\begin_layout Verse
+Suppose there is a candidate who has a job offer and wants to decide whether
+ he should accept the offer or Not.
+ 
+\end_layout
+
+\begin_layout Verse
+So, to solve this problem, the decision tree starts with the root node (Salary
+ attribute by ASM).
+ 
+\end_layout
+
+\begin_layout Verse
+The root node splits further into the next decision node (distance from
+ the office) and one leaf node based on the corresponding labels.
+\end_layout
+
+\begin_layout Verse
+The next decision node further gets split into one decision node (Cab facility)
+ and one leaf node.
+ Finally, the decision node splits into two leaf nodes (Accepted offers
+ and Declined offer).
+\end_layout
+
+\begin_layout Verse
+Consider the below diagram:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ex decsion.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Decision Tree Regression Code:
+\end_layout
+
+\begin_layout LyX-Code
+import numpy as np 
+\end_layout
+
+\begin_layout LyX-Code
+import matplotlib.pyplot as plt 
+\end_layout
+
+\begin_layout LyX-Code
+import pandas as pd
+\end_layout
+
+\begin_layout LyX-Code
+dataset = pd.read_csv('Position_Salaries.csv') 
+\end_layout
+
+\begin_layout LyX-Code
+X = dataset.iloc[:, 1:-1].values 
+\end_layout
+
+\begin_layout LyX-Code
+y = dataset.iloc[:, -1].values
+\end_layout
+
+\begin_layout LyX-Code
+from sklearn.tree import DecisionTreeRegressor
+\end_layout
+
+\begin_layout LyX-Code
+regressor = DecisionTreeRegressor(random_state = 0) 
+\end_layout
+
+\begin_layout LyX-Code
+regressor.fit(X, y)
+\end_layout
+
+\begin_layout LyX-Code
+X_grid = np.arange(min(X), max(X), 0.01) 
+\end_layout
+
+\begin_layout LyX-Code
+X_grid = X_grid.reshape((len(X_grid), 1))
+\end_layout
+
+\begin_layout LyX-Code
+plt.scatter(X, y, color = 'red')
+\end_layout
+
+\begin_layout LyX-Code
+plt.plot(X_grid, regressor.predict(X_grid),color'blue') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.title('Truth or Bluff (Decision TreeRegression)')
+\end_layout
+
+\begin_layout LyX-Code
+plt.xlabel('Position level') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.ylabel('Salary')
+\end_layout
+
+\begin_layout LyX-Code
+plt.show()
+\end_layout
+
+\begin_layout Subsubsection
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename decision tree graph.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+Random Forest Regression:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Random Fores
+\series default
+t is a popular machine learning algorithm that belongs to the 
+\series bold
+supervised learning 
+\series default
+technique.
+\end_layout
+
+\begin_layout Itemize
+It can be used for both Classification and Regression problems in ML.
+ It is based on the concept of ensemble learning, 
+\end_layout
+
+\begin_layout Itemize
+which is a process of combining multiple classifiers to solve a complex
+ problem and to improve the performance of the model.
+\end_layout
+
+\begin_layout Itemize
+As the name suggests, "
+\series bold
+Random Forest is a classifier that contains a number of decision trees on
+ various subsets of the given dataset and takes the average to improve the
+ predictive accuracy of that dataset.
+\series default
+" Instead of relying on one decision tree, the random forest takes the predictio
+n from each tree and based on the majority votes of predictions, and it
+ predicts the final output.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The greater number of trees in the forest leads to higher accuracy and prevents
+ the problem of overfitting
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename random-forest-algorithm.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Example:
+\end_layout
+
+\begin_layout Verse
+Suppose there is a dataset that contains multiple fruit images.
+ So, this dataset is given to the Random forest classifier.
+ 
+\end_layout
+
+\begin_layout Verse
+The dataset is divided into subsets and given to each decision tree.
+ During the training phase, each decision tree produces a prediction result,
+ and when a new data point occurs, 
+\end_layout
+
+\begin_layout Verse
+then based on the majority of results, the Random Forest classifier predicts
+ the final decision.
+ Consider the below image:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename kela.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Random Forest Regression Code:
+\end_layout
+
+\begin_layout Standard
+import numpy as np 
+\end_layout
+
+\begin_layout Standard
+import matplotlib.pyplot as plt
+\end_layout
+
+\begin_layout Standard
+import pandas as pd
+\end_layout
+
+\begin_layout Standard
+dataset = pd.read_csv('Position_Salaries.csv')
+\end_layout
+
+\begin_layout Standard
+X = dataset.iloc[:, 1:-1].values
+\end_layout
+
+\begin_layout Standard
+y = dataset.iloc[:, -1].values
+\end_layout
+
+\begin_layout Standard
+from sklearn.ensemble import RandomForestRegressor 
+\end_layout
+
+\begin_layout Standard
+regressor = RandomForestRegressor(n_estimators = 10, random_state = 0) regressor.
+fit(X, y)
+\end_layout
+
+\begin_layout Standard
+X_grid = np.arange(min(X), max(X), 0.01)
+\end_layout
+
+\begin_layout Standard
+X_grid = X_grid.reshape((len(X_grid), 1)) 
+\end_layout
+
+\begin_layout Standard
+plt.scatter(X, y, color = 'red') 
+\end_layout
+
+\begin_layout Standard
+plt.plot(X_grid, regressor.predict(X_grid), color = 'blue')
+\end_layout
+
+\begin_layout Standard
+plt.title('Truth or Bluff (Random Forest Regression)') 
+\end_layout
+
+\begin_layout Standard
+plt.xlabel('Position level') plt.ylabel('Salary')
+\end_layout
+
+\begin_layout Standard
+plt.show()
+\end_layout
+
+\begin_layout Subsubsection
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename download.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Clustering in Machine Learning:
+\end_layout
+
+\begin_layout Verse
+Clustering or cluster analysis is a machine learning technique, which groups
+ the unlabelled dataset.
+ 
+\end_layout
+
+\begin_layout Verse
+It can be defined as "
+\series bold
+A way of grouping the data points into different clusters, consisting of
+ similar data points.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\series bold
+The objects with the possible similarities remain in a group that has less
+ or no similarities with another group
+\series default
+."
+\end_layout
+
+\begin_layout Verse
+It does it by finding some similar patterns in the unlabelled dataset such
+ as shape, size, color, behavior, etc., and divides them as per the presence
+ and absence of those similar patterns.
+\end_layout
+
+\begin_layout Verse
+It is an 
+\series bold
+unsupervised learning method,
+\series default
+ hence no supervision is provided to the algorithm, and it deals with the
+\series bold
+ unlabeled dataset
+\series default
+.
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Use of clustering: 
+\end_layout
+
+\begin_layout Standard
+The clustering technique can be widely used in various tasks.
+ Some most common uses of this technique are:
+\end_layout
+
+\begin_layout Itemize
+Market Segmentation 
+\end_layout
+
+\begin_layout Itemize
+Statistical data analysis 
+\end_layout
+
+\begin_layout Itemize
+Social network analysis 
+\end_layout
+
+\begin_layout Itemize
+Image segmentation
+\end_layout
+
+\begin_layout Itemize
+Anomaly detection, etc.
+\end_layout
+
+\begin_layout Standard
+Apart from these general usages, it is used by the 
+\series bold
+Amazon 
+\series default
+in its recommendation system to provide the recommendations as per the past
+ search of products.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Netflix 
+\series default
+also uses this technique to recommend the movies and web-series to its users
+ as per the watch history.
+\end_layout
+
+\begin_layout Standard
+The below diagram explains the working of the clustering algorithm.
+ We can see the different fruits are divided into several groups with similar
+ properties.
+\end_layout
+
+\begin_layout Section
+
+\bar under
+Clustering Algorithms:
+\end_layout
+
+\begin_layout Standard
+The Clustering algorithms can be divided based on their models that are
+ explained above.
+ 
+\end_layout
+
+\begin_layout Standard
+There are different types of clustering algorithms published, but only a
+ few are commonly used.
+\end_layout
+
+\begin_layout Standard
+The clustering algorithm is based on the kind of data that we are using.
+ Such as, some algorithms need to guess the
+\end_layout
+
+\begin_layout Standard
+number of clusters in the given dataset, whereas some are required to find
+ the minimum distance between the observation of the dataset.
+\end_layout
+
+\begin_layout Subsection
+K-Means Clustering Algorithm:
+\end_layout
+
+\begin_layout Standard
+K-Means Clustering is an unsupervised learning algorithm that is used to
+ solve the clustering problems in machine learning or data science.
+\end_layout
+
+\begin_layout Standard
+K-Means Clustering is an Unsupervised Learning algorithm , which groups
+ the unlabeled dataset into different clusters.
+ 
+\end_layout
+
+\begin_layout Standard
+Here K defines the number of pre-defined clusters that need to be created
+ in the process, as if K=2, there will be two clusters, and for K=3, there
+ will be three clusters, and so on.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename k means ex.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+K-means++ algorithm: (K++)
+\end_layout
+
+\begin_layout Standard
+In data mining, k-means++ is an algorithm for choosing the initial values
+ (or "seeds") for the k-means clustering algorithm.
+ 
+\end_layout
+
+\begin_layout Standard
+It was proposed in 2007 by David Arthur and Sergei Vassilvitskii, as an
+ approximation algorithm for the NP-hard k-means problem—
+\end_layout
+
+\begin_layout Standard
+a way of avoiding the sometimes poor clusterings found by the standard k-means
+ algorithm.
+ It is similar to the first of three seeding methods proposed, 
+\end_layout
+
+\begin_layout Standard
+in independent work, in 2006[3] by Rafail Ostrovsky, Yuval Rabani, Leonard
+ Schulman and Chaitanya Swamy.
+ (The distribution of the first seed is different.)
+\end_layout
+
+\begin_layout Section
+
+\bar under
+K-Means Clustering code:
+\end_layout
+
+\begin_layout LyX-Code
+import numpy as np
+\end_layout
+
+\begin_layout LyX-Code
+import matplotlib.pyplot as plt 
+\end_layout
+
+\begin_layout LyX-Code
+import pandas as pd
+\end_layout
+
+\begin_layout LyX-Code
+dataset = pd.read_csv('Mall_Customers.csv')
+\end_layout
+
+\begin_layout LyX-Code
+X = dataset.iloc[:, [3, 4]].values
+\end_layout
+
+\begin_layout LyX-Code
+from sklearn.cluster import KMeans wcss = [] for i in range(1, 11):     
+\end_layout
+
+\begin_layout LyX-Code
+kmeans = KMeans(n_clusters = i, 
+\end_layout
+
+\begin_layout LyX-Code
+init = 'k-means++',
+\end_layout
+
+\begin_layout LyX-Code
+random_state = 42)   
+\end_layout
+
+\begin_layout LyX-Code
+ kmeans.fit(X)   
+\end_layout
+
+\begin_layout LyX-Code
+ wcss.append(kmeans.inertia_) 
+\end_layout
+
+\begin_layout LyX-Code
+plt.plot(range(1, 11), wcss) plt.title('The Elbow Method')
+\end_layout
+
+\begin_layout LyX-Code
+plt.xlabel('Number of clusters') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.ylabel('WCSS') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.show()
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Elbow Method(Graph):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename cluster elbow.png
+	lyxscale 60
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+kmeans = KMeans(n_clusters = 5, init = 'k-means++', random_state = 42) 
+\end_layout
+
+\begin_layout LyX-Code
+y_kmeans = kmeans.fit_predict(X)  
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Subsection
+Visualising the clusters :
+\end_layout
+
+\begin_layout LyX-Code
+plt.scatter(X[y_kmeans == 0, 0],
+\end_layout
+
+\begin_layout LyX-Code
+X[y_kmeans == 0, 1], 
+\end_layout
+
+\begin_layout LyX-Code
+s = 100, c = 'red', label = 'Cluster 1')
+\end_layout
+
+\begin_layout LyX-Code
+plt.scatter(X[y_kmeans == 1, 0], X[y_kmeans == 1, 1],
+\end_layout
+
+\begin_layout LyX-Code
+s = 100, c = 'blue', label = 'Cluster 2')
+\end_layout
+
+\begin_layout LyX-Code
+plt.scatter(X[y_kmeans == 2, 0], X[y_kmeans == 2, 1],
+\end_layout
+
+\begin_layout LyX-Code
+s = 100, c = 'green', label = 'Cluster 3') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.scatter(X[y_kmeans == 3, 0], X[y_kmeans == 3, 1],
+\end_layout
+
+\begin_layout LyX-Code
+s = 100, c = 'cyan', label = 'Cluster 4')
+\end_layout
+
+\begin_layout LyX-Code
+plt.scatter(X[y_kmeans == 4, 0], X[y_kmeans == 4, 1],
+\end_layout
+
+\begin_layout LyX-Code
+s = 100, c = 'magenta', label = 'Cluster 5') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.scatter(kmeans.cluster_centers_[:, 0], 
+\end_layout
+
+\begin_layout LyX-Code
+kmeans.cluster_centers_[:, 1], s = 300, c = 'yellow', label = 'Centroids')
+\end_layout
+
+\begin_layout LyX-Code
+plt.title('Clusters of customers') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.xlabel('Annual Income (k$)') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.ylabel('Spending Score (1-100)')
+\end_layout
+
+\begin_layout LyX-Code
+plt.legend()
+\end_layout
+
+\begin_layout LyX-Code
+plt.show()
+\end_layout
+
+\begin_layout Subsection
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename cluster img.png
+	lyxscale 70
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\bar under
+References:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Artificial intelligence/Ivivity.com"
+target "https://lvivity.com/machine-learning-in-finance"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Arificial Intelligence/Wikipedia.com"
+target "https://en.wikipedia.org/wiki/Artificial_intelligence"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Artificial Intelligence/Tutorialpoint.com"
+target "https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_overview.htm"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "JAVAPOINT.com"
+target "https://www.javatpoint.com/machine-learning"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
