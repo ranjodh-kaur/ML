@@ -1,0 +1,2512 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 2.5cm
+\rightmargin 1.25cm
+\bottommargin 1.25cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\family sans
+\series bold
+MACHINE LEARNING
+\end_layout
+
+\begin_layout Author
+
+\series bold
+\shape italic
+\size larger
+PRACTICAL FILE
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\color black
+BACHELOR OF TECHNOLOGY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+INFORMATION TECHNOLOGY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+SUBMITTED BY:
+\end_layout
+
+\begin_layout Standard
+\align center
+PRANJAL SAGAR
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+URN:2104547
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+CRN:2121089
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+20 JULY 2022
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+GURU NANAK DEV ENGINEERING COLLEGE
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/logo_college.jpeg
+	lyxscale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+
+\size large
+INTRODUCTION TO PYTHON LIBRARIES
+\end_layout
+
+\begin_layout Section
+
+\size large
+NumPy
+\end_layout
+
+\begin_layout Section
+
+\size large
+Pandas
+\end_layout
+
+\begin_layout Section
+
+\size large
+Matplotlib
+\end_layout
+
+\begin_layout Section
+
+\size large
+Scikit- Learn
+\end_layout
+
+\begin_layout Subsection*
+
+\size larger
+NumPy
+\end_layout
+
+\begin_layout Standard
+
+\size large
+NumPy is a Python library used for working with arrays.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+It also has functions for working in domain of linear algebra, fourier transform
+, and matrices.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+NumPy was created in 2005 by Travis Oliphant.
+ It is an open source project and you can use it freely.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+NumPy stands for Numerical Python.
+\end_layout
+
+\begin_layout Section*
+CODE
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+import numpy as np 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+list=[1,2,31,314] 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+arr=np.array(list) 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+print(arr)
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Output
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+[  1   2  31 314] 
+\end_layout
+
+\begin_layout Subsection*
+
+\size larger
+Pandas
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Pandas is an open source Python package that is most widely used for data
+ science/data analysis and machinelearning tasks.
+ It is built on top of another package named Numpy, which provides support
+ for multi-dimensionalarrays.
+ As one of the most popular data wrangling packages, Pandas works well with
+ th many other data science modules inside the Python ecosystem, and is
+ typically included in every Python distribution, from those that come with
+ your operating system to commercial vendor distributions like ActiveState’s
+ ActivePython.
+\end_layout
+
+\begin_layout Section*
+CODE
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+import numpy as np 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+import pandas as pd 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+list={     'maths':[98,97,87],    
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+'chemistry':[88,76,74],     
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+'physics':[96,88,94]
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+} 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+df=pd.DataFrame(list,index=['Ramesh','Shyamlal','Mehal']) 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+print(df)
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+output
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+maths
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+chemistry
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+physics
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ramesh
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+98
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+88
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+96
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shyamlal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+97
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+76
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+88
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mehal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+97
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+74
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+94
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Matplotlib
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Matplotlib is an amazing visualization library in Python for 2D plots of
+ arrays.
+ Matplotlib is a multi-platform data visualization library built on NumPy
+ arrays and designed to work with the broader SciPy stack.
+ It was introduced by John Hunter in the year 2002.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+One of the greatest benefits of visualization is that it allows us visual
+ access to huge amounts of data in easily digestible visuals.
+ Matplotlib consists of several plots like line, bar, scatter, histogram
+ etc.
+\end_layout
+
+\begin_layout Section*
+
+\size large
+CODE
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+import numpy as np
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+import matplotlib.pyplot as plt 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+x=[1,2,3] 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+x=np.array(x) 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+y=x**2 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+plt.plot(x,y) 
+\end_layout
+
+\begin_layout LyX-Code
+
+\size large
+plt.show()
+\end_layout
+
+\begin_layout Standard
+
+\size large
+output
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/output.png
+	lyxscale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\size largest
+INTRODUCTION TO DATA SCIENCE
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Data Science is a combination of multiple disciplines that uses statistics,
+ data analysis, and machine learning to analyze data and to extract knowledge
+ and insights from it.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Data Science is about data gathering, analysis and decision-making.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Data Science is about finding patterns in data, through analysis, and make
+ future predictions.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+By using Data Science, companies are able to make:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+.
+ Better decisions (should we choose A or B)
+\end_layout
+
+\begin_layout Standard
+
+\size large
+.Predictive analysis (what will happen next?)
+\end_layout
+
+\begin_layout Standard
+
+\size large
+.Pattern discoveries (find pattern, or maybe hidden information in the data)
+\end_layout
+
+\begin_layout Part*
+
+\size large
+COMPONENTS OF DATA SCIENCE
+\end_layout
+
+\begin_layout Enumerate
+.
+ DATA
+\end_layout
+
+\begin_layout Enumerate
+.
+ BIG DATA
+\end_layout
+
+\begin_layout Enumerate
+.
+ MACHINE LEARNING
+\end_layout
+
+\begin_layout Enumerate
+.
+ STATICS
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+1.
+ Data 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Data is a collection of factual information based on numbers, words, observation
+s, measurements which can be utilized for calculation, discussion and reasoning.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The crude dataset is the basic foundation of data science 
+\end_layout
+
+\begin_layout Part*
+2.
+ Big Data 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Big Data is enormously big data sets.
+ It consists of various V’s such as, volume, variety, velocity, vision,
+ value, variability & visualization, etc.
+ For instance, Facebook.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+big data image.
+ Data is contrasted and raw petroleum which is a profitable crude material,
+ and as scientist separate the refined oil from the unrefined petroleum
+ comparably by applying data science, scientist can remove various types
+ of data from crude information.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+it is classified as:-
+\end_layout
+
+\begin_layout Enumerate
+
+\size large
+structured data:Structured data is the data which conforms to a data model,
+ has a well define structure, follows a consistent order and can be easily
+ accessed and used by a person or a computer program.
+\end_layout
+
+\begin_layout Enumerate
+
+\size large
+unstructured data:Unstructured data is the data which does not conforms
+ to a data model and has no easily identifiable structure such that it can
+ not be used by a computer program easily.
+ Unstructured data is not organised in a pre-defined manner or does not
+ have a pre-defined data model, thus it is not a good fit for a mainstream
+ relational database
+\end_layout
+
+\begin_layout Enumerate
+
+\size large
+semistructured data:Semi-structured data is data that does not conform to
+ a data model but has some structure.
+ It lacks a fixed or rigid schema.
+ It is the data that does not reside in a rational database but that have
+ some organizational properties that make it easier to analyze.
+ With some processes, we can store them in the relational database.
+\end_layout
+
+\begin_layout Subsection*
+
+\size larger
+3.
+ Machine Learning
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Machine Learning is the part of Data Science which enables the system to
+ process datasets autonomously without any human interference by utilizing
+ various algorithms to work on massive volume of data generated and extracted
+ from numerous sources.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+It makes prediction, analysis patterns and gives recommendations.
+ Machine learning is frequently being used in fraud detection and client
+ retention.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+A social media platform i.e.
+ Facebook is a decent example of machine learning implementation where fast
+ and furious algorithms are used to gather the behavioral information of
+ every user on social media and recommend them appropriate articles, multimedia
+ files and much more according to their choice.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Machine learning is also the part of Artificial Intelligence where the requisite
+ information is achieved after utilizing various algorithms and techniques,
+ such as Supervised and Un-supervised Machine Learning Algorithms.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+A machine learning professional must have the basic knowledge of statistics
+ and probability, data evaluation, and technical skills of programming languages.
+\end_layout
+
+\begin_layout Part*
+Types of Machine Learning 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+There are following three types of Machine learning:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+.
+ SUPERVISED LEARNING:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+.
+ UNSUPERVISED LEARNING
+\end_layout
+
+\begin_layout Standard
+
+\size large
+.
+ REINFORCEMENT LEARNING
+\end_layout
+
+\begin_layout Part*
+4.
+ Statistics and Probability
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Data is controlled to extricate data out of it.
+ The numerical foundation of data science is insights and likelihood as
+ without having a reasonable learning of measurements and likelihood, there
+ is a high plausibility of confounding the information and achieving an
+ off base end.
+ This is the reason that’s why Statistics and Probability assume an essential
+ job in data scienc
+\end_layout
+
+\begin_layout Part*
+
+\size large
+APPLICATION OF DATA SCIENCE
+\end_layout
+
+\begin_layout Section*
+1.
+ Marketing -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+There is a huge scope in marketing; for example, Improved Pricing strategy
+ Companies like Uber, e-commerce companies can use data science-driven pricing,
+ increasing their profits.
+\end_layout
+
+\begin_layout Section*
+2.
+ Healthcare -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Using wearable data to prevent and monitor health problems.
+ The data generated from the body can be used in healthcare to prevent future
+ emergencies.
+\end_layout
+
+\begin_layout Section*
+3.
+ Banking and Finance -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+As we discussed the introduction to data science now, we will go ahead with
+ applying data science uses in the banking sector for fraud detection, which
+ can help reduce the Non-Performing Assets of banks.
+\end_layout
+
+\begin_layout Section*
+4.
+ Government Policies -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The Government can use data science to prepare better policies to cater
+ to the needs of the people and what they want using the data they can get
+ by conducting surveys and others from other official sources
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+INTRODUCTION TO ARTIFICAL INTELLIGENT
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Artificial intelligence (AI) broadly refers to any human-like behavior displayed
+ by a machine or system.
+ In AI’s most basic form, computers are programmed to “mimic” human behavior
+ using extensive data from past examples of similar behavior.
+ This can range from recognizing differences between a cat and a bird to
+ performing complex activities in a manufacturing facility.
+\end_layout
+
+\begin_layout Subsection*
+The intelligence is intangible.
+ AI is composed of
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Reasoning:-Reasoning plays a great role in the process of artificial Intelligenc
+e.
+ Thus Reasoning can be defined as the logical process of drawing conclusions,
+ making predictions or constructing approaches towards a particular thought
+ with the help of existing knowledge.
+ In artificial intelligence, reasoning is very important because to understand
+ the human brain, how the brain thinks, how it draws conclusions towards
+ particular things for all these sorts of works we need the help of reasoning.
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Learning:-Learning is one of the fundamental building blocks of artificial
+ intelligence (AI) solutions.
+ From a conceptual standpoint, learning is a process that improves the knowledge
+ of an AI program by making observations about its environment.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Problem Solving:-Problem solving is the process of a problem analysis and
+ resolving it in the best way possible for that situation
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Perception:-Perception is the process by which sensory information captured
+ in the real world is interpreted, acquired, selected, and then organized.
+ Human beings, for example, have sensory receptors for touch, taste, smell,
+ sight, and hearing.
+ As a result, the information received from these receptors is transmitted
+ to the human brain, which organizes the data
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+Linguistic Intelligence:-The ability to speak, recognize, and use mechanisms
+ of phonology (speech sounds), syntax (grammar), and semantics (meaning)
+\end_layout
+
+\begin_layout Subsection*
+The objectives of AI research are reasoning, knowledge representation, planning,
+ learning, natural language processing, realization, and ability to move
+ and manipulate objects.
+ There are long-term goals in the general intelligence sector.Approaches
+ include statistical methods, computational intelligence, and traditional
+ coding AI.
+ During the AI research related to search and mathematical optimization,
+ artificial neural networks and methods based on statistics, probability,
+ and economics, we use many tools.
+ Computer science attracts AI in the field of science, mathematics, psychology,
+ linguistics, philosophy and so on.
+\end_layout
+
+\begin_layout Part*
+APPLICATION OF ARTIFICAL INTELLIGENT
+\end_layout
+
+\begin_layout Section*
+· Gaming 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+AI plays important role for machine to think of large number of possible
+ positions based on deep knowledge in strategic games.
+ for example, chess,river crossing, N-queens problems and etc.
+\end_layout
+
+\begin_layout Section*
+· Natural Language Processing -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Interact with the computer that understands natural language spoken by humans.
+\end_layout
+
+\begin_layout Section*
+· Expert Systems -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Machine or software provide explanation and advice to the users.
+\end_layout
+
+\begin_layout Section*
+· Vision Systems -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Systems understand, explain, and describe visual input on the computer.
+\end_layout
+
+\begin_layout Section*
+· Speech Recognition -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+There are some AI based speech recognition systems have ability to hear
+ and express as sentences and understand their meanings while a person talks
+ to it.
+ For example Siri and Google assistant.
+\end_layout
+
+\begin_layout Section*
+· Handwriting Recognition -: 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The handwriting recognition software reads the text written on paper and
+ recognize the shapes of the letters and convert it into editable text.
+\end_layout
+
+\begin_layout Section*
+· Intelligent Robots -:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Robots are able to perform the instructions given by a human.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+INTRODUCTION TO MACHINE LEARNING
+\end_layout
+
+\begin_layout Part*
+
+\size large
+DEFINATION:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Machine learning is a subfield of artificial intelligence, which is broadly
+ defined as the capability of a machine to imitate intelligent human behavior.
+ Artificial intelligence systems are used to perform complex tasks in a
+ way that is similar to how humans solve problem
+\end_layout
+
+\begin_layout Part*
+
+\size large
+TRADITIONAL PROGRAMMING:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Traditional programming is a manual process—meaning a person (programmer)
+ creates the program.
+ But without anyone programming the logic, one has to manually formulate
+ or code rules.
+\end_layout
+
+\begin_layout Part*
+
+\size large
+MACHINE LEARNING PROGRAMMING:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Machine Learning Programming Unlike traditional programming, machine learning
+ is an automated process.
+ It can increase the value of your embedded analytics in many areas, including
+ data prep, natural language interfaces, automatic outlier detection, recommenda
+tions, and causality and significance detection.
+ All of these features help speed user insights and reduce decision bias.
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\size large
+Now Machine Learning can be classified into three categories:-
+\end_layout
+
+\begin_layout Part*
+
+\size large
+SUPERVISED LEARNING:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Supervised Machine Learning Labeled dataset is used in supervised machine
+ learning.
+ Here, you must input variables (X) and output variables (Y) then you apply
+ an appropriate algorithm to find the mapping function from input to output.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Y = f(X)
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Supervised machine learning can be categorized into the following:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Classification – where the output variable is a category like black or white,
+ plus or minus.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Naïve Bayes, Support Vector Machine, Decision Tree are the most popular
+ supervised machine learning algorithms.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Regression – where the output variable is a real value like weight, dollars,
+ etc.
+ Linear regression is used for regression problems.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/supervised.png
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+
+\size large
+SEMI-SUPERVISED LEARNING:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Semi-supervised learning is an approach to machine learning that combines
+ a small amount of labeled data with a large amount of unlabeled data during
+ training.
+ Semi-supervised learning falls between unsupervised learning (with no labeled
+ training data) and supervised learning (with only labeled training data).
+ It is a special instance of weak supervision.
+\end_layout
+
+\begin_layout Part*
+
+\size large
+UNSUPERVISED LEARNING:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+In this type of machine learning, un-labeled datasets is used.
+ Here, you have only input variables (X) and no output variables; therefore,
+ algorithm can be utilized to discover the inherent grouping from the input
+ data.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Un-supervised machine learning can be categorized into the following: –
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Clustering – where you find out the inherent groupings like grouping clients
+ by procuring behavior.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+K-means clustering, hierarchical clustering and density based spatial clustering
+ are more popular clustering algorithms.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Association – where you find out rules that label large slices of your data.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Apriori algorithm is used for market basket analysis.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/unsupervised.webp
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Advantages of Artificial Intelligence 
+\end_layout
+
+\begin_layout Section*
+1.
+ Reduction in Human Error :-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+One of the biggest advantages of Artificial Intelligence is that it can
+ significantly reduce errors and increase accuracy and precision.
+ The decisions taken by AI in every step is decided by information previously
+ gathered and a certain set of algorithms.
+ When programmed properly, these errors can be reduced to null.
+ 
+\end_layout
+
+\begin_layout Section*
+2.
+ Zero Risks :-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Another big advantage of AI is that humans can overcome many risks by letting
+ AI robots do them for us.
+ Whether it be defusing a bomb, going to space, exploring the deepest parts
+ of oceans, machines with metal bodies are resistant in nature and can survive
+ unfriendly atmospheres.
+ Moreover, they can provide accurate work with greater responsibility and
+ not wear out easily.
+\end_layout
+
+\begin_layout Part*
+3.
+ 24x7 Availability :-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+There are many studies that show humans are productive only about 3 to 4
+ hours in a day.
+ Humans also need breaks and time offs to balance their work life and personal
+ life.
+ But AI can work endlessly without breaks.
+ They think much faster than humans and perform multiple tasks at a time
+ with accurate results.
+ They can even handle tedious repetitive jobs easily with the help of AI
+ algorithms.
+ 
+\end_layout
+
+\begin_layout Section*
+4.
+ Digital Assistance :-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Almost all the big organizations these days use digital assistants to interact
+ with their customers which significantly minimizes the need for human resources.
+ You can chat with a chatbot and ask them exactly what you need.
+ Some chatbots have become so intelligent these days that you wouldn’t be
+ able to determine whether you are chatting with a chatbot or a human being.
+\end_layout
+
+\begin_layout Section*
+5.
+ Unbiased Decisions :-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Human beings are driven by emotions, whether we like it or not.
+ AI on the other hand, is devoid of emotions and highly practical and rational
+ in its approach.
+ A huge advantage of Artificial Intelligence is that it doesn't have any
+ biased views, which ensures more accurate decision-making.
+\end_layout
+
+\begin_layout Part*
+Advantages of Machine learning
+\end_layout
+
+\begin_layout Section*
+1.
+ Easily identifies trends and patterns :-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Machine Learning can review large volumes of data and discover specific
+ trends and patterns that would not be apparent to humans.
+ For instance, for an e-commerce website like Amazon, it serves to understand
+ the browsing behaviors and purchase histories of its users to help cater
+ to the right products, deals, and reminders relevant to them.
+ It uses the results to reveal relevant advertisements to them.
+\end_layout
+
+\begin_layout Section*
+2.
+ No human intervention needed :-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+With ML, you don’t need to babysit your project every step of the way.
+ Since it means giving machines the ability to learn, it lets them make
+ predictions and also improve the algorithms on their own.
+ A common example of this is anti-virus software; they learn to filter new
+ threats as they are recognized.
+ ML is also good at recognizing spam
+\size default
+.
+\end_layout
+
+\begin_layout Section*
+3.
+ Continuous Improvement :-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+As ML algorithms gain experience, they keep improving in accuracy and efficiency.
+ This lets them make better decisions.
+ Say you need to make a weather forecast model.
+ As the amount of data you have keeps growing, your algorithms learn to
+ make more accurate predictions faster.
+\end_layout
+
+\begin_layout Section*
+4.
+ Handling multi-dimensional and multi-variety data :-
+\end_layout
+
+\begin_layout Subsection*
+Machine Learning algorithms are good at handling data that are multi-dimensional
+ and multi-variety, and they can do this in dynamic or uncertain environments.
+\end_layout
+
+\begin_layout Section*
+5.
+ Wide Applications :
+\size large
+-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+You could be an e-tailer or a healthcare provider and make ML work for you.
+ Where it does apply, it holds the capability to help deliver a much more
+ personal experience to customers while also targeting the right customers.
+\end_layout
+
+\begin_layout Part*
+REGRESSION TECHNIQUE IN MACHINE LEARNING
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Linear regression and logistic regression are two types of regression analysis
+ techniques that are used to solve the regression problem using machine
+ learning.
+ They are the most prominent techniques of regression.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/regression.ppm
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+There are six type of regression technique in machine learning
+\end_layout
+
+\begin_layout Section*
+.
+ Simple linear regression
+\end_layout
+
+\begin_layout Section*
+.
+ Multiple linear regression
+\end_layout
+
+\begin_layout Section*
+.
+ Polynomial regression
+\end_layout
+
+\begin_layout Section*
+.
+ SVR
+\end_layout
+
+\begin_layout Section*
+.
+ Decission tree
+\end_layout
+
+\begin_layout Section*
+.
+ Random forest
+\end_layout
+
+\begin_layout Part*
+1 Simple linear regression
+\end_layout
+
+\begin_layout Standard
+
+\size large
+In simple linear regression, there is only one predictor variable.
+ Since our goal is to predict the crew variable, we see from Figure 1 that
+ the cabins variable correlates the most with the crew variable.
+ Hence our simple regression model can be expressed in the form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hat{y_{i}}=mX_{i}+C$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+where m is the slope or regression coefficient, and c is the intercept.
+ The model will be evaluated using the R2 score metric which can be calculated
+ as follows:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula $R2=1-\frac{\sum_{i=1}^{N}(y_{i}-\hat{y_{i}})^{2}}{\sum_{i=1}^{N}(y_{i-}\bar{y}_{i})^{2}}$
+\end_inset
+
+, 
+\begin_inset Formula $\bar{y}=\frac{1}{N}\stackrel[i=1]{N}{\sum y_{i}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+The R2 score takes values between 0 and 1.
+ When R2 is close to 1, it means the predicted values agree closely with
+ the actual values.
+ If R2 is close to zero, then it means the predictive power of the model
+ is very poor.
+\end_layout
+
+\begin_layout Subsection*
+Let’s now define and plot our independent and dependent variables:
+\end_layout
+
+\begin_layout Subsubsection*
+Input
+\end_layout
+
+\begin_layout LyX-Code
+X = df['cabins']
+\end_layout
+
+\begin_layout LyX-Code
+y = df['crew'] 
+\end_layout
+
+\begin_layout LyX-Code
+plt.scatter(X,y,c='steelblue', edgecolor='white', s=70) 
+\end_layout
+
+\begin_layout LyX-Code
+plt.xlabel('cabins') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.ylabel('crew') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.title('scatter plot of crew vs.
+ cabins') 
+\end_layout
+
+\begin_layout LyX-Code
+plt.show()
+\end_layout
+
+\begin_layout Subsubsection*
+Output
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Part*
+2.
+ Multiple linear regression
+\end_layout
+
+\begin_layout Subsection*
+Multiple linear regression refers to a statistical technique that is used
+ to predict the outcome of a variable based on the value of two or more
+ variables.
+ It is sometimes known simply as multiple regression, and it is an extension
+ of linear regression.
+ The variable that we want to predict is known as the dependent variable,
+ while the variables we use to predict the value of the dependent variable
+ are known as independent or explanatory variables.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/multiple-linear-regression.png
+	lyxscale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Formula
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula $y_{i}$
+\end_inset
+
+=
+\begin_inset Formula $\beta_{0}+\beta_{1}X_{1}+\beta_{2}X_{2}+\ldots+\beta^{p}X^{p}+\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Where:
+\end_layout
+
+\begin_layout Subsection*
+.
+ 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+ is the dependent or predicted variable 
+\end_layout
+
+\begin_layout Subsection*
+.
+ β0 is the y-intercept, i.e., the value of y when both xi and x2 are 0.
+ 
+\end_layout
+
+\begin_layout Subsection*
+.
+ β1 and β2 are the regression coefficients representing the change in y
+ relative to a one-unit change in xi1 and xi2, respectively.
+ 
+\end_layout
+
+\begin_layout Subsection*
+.
+ βp is the slope coefficient for each independent variable 
+\end_layout
+
+\begin_layout Subsection*
+.
+ ϵ is the model’s random error (residual) term.
+\end_layout
+
+\begin_layout Section*
+Understanding Multiple Linear Regression
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Simple linear regression enables statisticians to predict the value of one
+ variable using the available information about another variable.
+ Linear regression attempts to establish the relationship between the two
+ variables along a straight line.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Multiple regression is a type of regression where the dependent variable
+ shows a linear relationship with two or more independent variables.
+ It can also be non-linear, where the dependent and independent variables
+ do not follow a straight line.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Both linear and non-linear regression track a particular response using
+ two or more variables graphically.
+ However, non-linear regression is usually difficult to execute since it
+ is created from assumptions derived from trial and error.
+\end_layout
+
+\begin_layout Section*
+Assumptions of Multiple Linear Regression
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Multiple linear regression is based on the following assumptions:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+1.
+ A linear relationship between the dependent and independent variables
+\end_layout
+
+\begin_layout Standard
+
+\size large
+2.
+ The independent variables are not highly correlated with each other 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+3.
+ The variance of the residuals is constant 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+4.
+ Independence of observation 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+5.
+ Multivariate normality
+\end_layout
+
+\begin_layout Part*
+3.
+ Polynomial regression
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Polynomial Regression is a form of linear regression in which the relationship
+ between the independent variable x and dependent variable y is modeled
+ as an nth degree polynomial.
+ Polynomial regression fits a nonlinear relationship between the value of
+ x and the corresponding conditional mean of y, denoted E(y |x)
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/multiple-linear-regression.png
+	lyxscale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Understanding polynomial Regression
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The goal of regression analysis is to model the expected value of a dependent
+ variable y in terms of the value of an independent variable (or vector
+ of independent variables) x.
+ In simple linear regression, the model
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula $y=\beta_{0}+\beta_{1}x+\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+is used, where ε is an unobserved random error with mean zero conditioned
+ on a scalar variable x.
+ In this model, for each unit increase in the value of x, the conditional
+ expectation of y increases by β1 units.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+In many settings, such a linear relationship may not hold.
+ For example, if we are modeling the yield of a chemical synthesis in terms
+ of the temperature at which the synthesis takes place, we may find that
+ the yield improves by increasing amounts for each unit increase in temperature.
+ In this case, we might propose a quadratic model of the form
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula $y$
+\end_inset
+
+=
+\begin_inset Formula $\beta_{0}+\beta_{1}x+\beta_{2}x^{2}+\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+In this model, when the temperature is increased from x to x + 1 units,
+ the expected yield changes by 
+\begin_inset Formula $\beta_{1}+\beta_{2}(2x+1).$
+\end_inset
+
+(This can be seen by replacing x in this equation with x+1 and subtracting
+ the equation in x from the equation in x+1.) For infinitesimal changes in
+ x, the effect on y is given by the total derivative with respect to x:
+ 
+\begin_inset Formula $\beta_{1}+2\beta_{2}x.$
+\end_inset
+
+The fact that the change in yield depends on x is what makes the relationship
+ between x and y nonlinear even though the model is linear in the parameters
+ to be estimated.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+In general, we can model the expected value of y as an nth degree polynomial,
+ yielding the general polynomial regression model
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula $y=\beta_{0}+\beta_{1}x+\beta_{2}x^{2}+\beta_{3}x^{3}+\ldots+\beta_{n}x^{n}+\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Conveniently, these models are all linear from the point of view of estimation,
+ since the regression function is linear in terms of the unknown parameters
+ β0, β1, ....
+ Therefore, for least squares analysis, the computational and inferential
+ problems of polynomial regression can be completely addressed using the
+ techniques of multiple regression.
+ This is done by treating x, x2, ...
+ as being distinct independent variables in a multiple regression model.
+\end_layout
+
+\begin_layout Subsection*
+
+\size larger
+SVR AND SVM
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+SVM
+\series default
+:-Support Vector Machine or SVM is one of the most popular Supervised Learning
+ algorithms, which is used for Classification as well as Regression problems.
+ However, primarily, it is used for Classification problems in Machine Learning.
+ The goal of the SVM algorithm is to create the best line or decision boundary
+ that can segregate n-dimensional space into classes so that we can easily
+ put the new data point in the correct category in the future.
+ This best decision boundary is called a hyperplane.
+ SVM chooses the extreme points/vectors that help in creating the hyperplane.
+ These extreme cases are called as support vectors, and hence algorithm
+ is termed as Support Vector Machine.
+ Consider the below diagram in which there are two different categories
+ that are classified using a decision boundary or hyperplane:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/Support-vector-machine-SVM-classifier.png
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+SVR:
+\series default
+\size default
+-
+\size large
+Support Vector Regression is a supervised learning algorithm that is used
+ to predict discrete values.
+ Support Vector Regression uses the same principle as the SVMs.
+ The basic idea behind SVR is to find the best fit line.
+ In SVR, the best fit line is the hyperplane that has the maximum number
+ of points.Unlike other Regression models that try to minimize the error
+ between the real and predicted value, the SVR tries to fit the best line
+ within a threshold value.
+ The threshold value is the distance between the hyperplane and boundary
+ line.
+ The fit time complexity of SVR is more than quadratic with the number of
+ samples which makes it hard to scale to datasets with more than a couple
+ of 10000 samples.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+For large datasets, Linear SVR or SGD Regressor is used.
+ Linear SVR provides a faster implementation than SVR but only considers
+ the linear kernel.
+ The model produced by Support Vector Regression depends only on a subset
+ of the training data, because the cost function ignores samples whose predictio
+n is close to their target.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/svr.png
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\size larger
+Decision Tree Classification Algorithm 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+1.
+ Decision Tree is a Supervised learning technique that can be used for both
+ classification and Regression problems, but mostly it is preferred for
+ solving Classification problems.
+ It is a tree-structured classifier, where internal nodes represent the
+ features of a dataset, branches represent the decision rules and each leaf
+ node represents the outcome.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+2.In a Decision tree, there are two nodes, which are the Decision Node and Leaf
+ Node. Decision nodes are used to make any decision and have multiple branches,
+ whereas Leaf nodes are the output of those decisions and do not contain
+ any further branches.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+3.The decisions or the test are performed on the basis of features of the
+ given dataset.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+4.It is a graphical representation for getting all the possible solutions
+ to a problem/decision based on given conditions.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+5.It is called a decision tree because, similar to a tree, it starts with
+ the root node, which expands on further branches and constructs a tree-like
+ structure.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+6.In order to build a tree, we use the CART algorithm, which stands for Classific
+ation and Regression Tree algorithm.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+7.A decision tree simply asks a question, and based on the answer (Yes/No),
+ it further split the tree into subtrees.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+8.
+ Below diagram explains the general structure of a decision tree: Note:
+ A decision tree can contain categorical data (YES/NO) as well as numeric
+ data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/dtrc.png
+	lyxscale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Why use Decision Trees? 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+There are various algorithms in Machine learning, so choosing the best algorithm
+ for the given dataset and problem is the main point to remember while creating
+ a machine learning model.
+ Below are the two reasons for using the Decision tree: 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+1.
+ Decision Trees usually mimic human thinking ability while making a decision,
+ so it is easy to understand.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+2.
+ The logic behind the decision tree can be easily understood because it
+ shows a tree-like structure.
+
+\size default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Decision Tree Terminologies 
+\end_layout
+
+\begin_layout Enumerate
+
+\size large
+Root Node: Root node is from where the decision tree starts.
+ It represents the entire dataset, which further gets divided into two or
+ more homogeneous sets.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size large
+Leaf Node: Leaf nodes are the final output node, and the tree cannot be
+ segregated further after getting a leaf node.
+\end_layout
+
+\begin_layout Enumerate
+
+\size large
+Splitting: Splitting is the process of dividing the decision node/root node
+ into sub-nodes according to the given conditions.
+\end_layout
+
+\begin_layout Enumerate
+
+\size large
+Branch/Sub Tree: A tree formed by splitting the tree.
+ Pruning: Pruning is the process of removing the unwanted branches from
+ the tree.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\size large
+Parent/Child node: The root node of the tree is called the parent node,
+ and other nodes are called the child nodes.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+How does the Decision Tree algorithm Work?
+\end_layout
+
+\begin_layout Standard
+
+\size large
+In a decision tree, for predicting the class of the given dataset, the algorithm
+ starts from the root node of the tree.
+ This algorithm compares the values of root attribute with the record (real
+ dataset) attribute and, based on the comparison, follows the
+\end_layout
+
+\begin_layout Standard
+
+\size large
+branch and jumps to the next node.
+ For the next node, the algorithm again compares the attribute value with
+ the other sub-nodes and move further.
+ It continues the process until it reaches the leaf node of the tree.
+ The complete process can be better
+\end_layout
+
+\begin_layout Standard
+
+\size large
+understood using the below algorithm:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-1: Begin the tree with the root node, says S, which contains the complete
+ dataset.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-2: Find the best attribute in the dataset using Attribute Selection
+ Measure (ASM).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-3: Divide the S into subsets that contains possible values for the
+ best attributes.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-4: Generate the decision tree node, which contains the best attribute.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-5: Recursively make new decision trees using the subsets of the dataset
+ created in step -3.
+ Continue this process until a stage is reached where you cannot further
+ classify the nodes and called the final node as a leaf node
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+WORKING OF RANDOM FOREST ALGORITHM:-
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\size large
+Random Forest works in two-phase rst is to create the random forest by combining
+ N decision tree, and second is to make predictions for each tree created
+ in the rst phase.
+ The Working process can be explained in the below steps and diagram:
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\size large
+Step-1: Select random K data points from the training set.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-2: Build the decision trees associated with the selected data points
+ (Subsets).
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-3: Choose the number N for decision trees that you want to build.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-4: Repeat Step 1 & 2.
+ Step-5: For new data points, nd the predictions 25 of each decision tree,
+ and assign the new data points to the category that wins the majority votes.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+CONFUSION MATRIX:- 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+A Confusion matrix is an N x N matrix used for evaluating the performance
+ of a classification model, where N is the number of target classes.
+ The matrix compares the actual target values with those predicted by the
+ machine learning model.
+ It is a
+\end_layout
+
+\begin_layout Standard
+
+\size large
+kind of table which helps you to the know the performance of the classification
+ model on a set of test data for that the true values are known.
+ The term confusion matrix itself is very simple, but its related terminology
+ can be a little confusing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/confusion matrix.jpeg
+	lyxscale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+>TP: True Positive: Predicted values correctly predicted as actual positive
+ >FP: Predicted values incorrectly predicted an actual positive.
+ i.e., Negative values predicted as positive >FN: False Negative: Positive
+ values predicted 26 as negative >TN:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+True Negative: Predicted values correctly predicted as an actual negative.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+You can compute the accuracy test from the confusion matrix:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images for code/accuracy.jpeg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+>True Positive: You projected positive and its turn out to be true.
+ For example, you had predicted that France would win the world cup, and
+ it won.
+ >True Negative: When you predicted negative, and it’s true.
+ You had predicted that England would
+\end_layout
+
+\begin_layout Standard
+
+\size large
+not win and it lost.
+ >False Positive: Your prediction is positive, and it is false.
+ You had predicted that England would win, but it lost.
+ >False Negative: Your prediction is negative, and result it is also false.
+ You had predicted that France would not
+\end_layout
+
+\begin_layout Standard
+
+\size large
+win, but it won.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+KMEANS:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+K-means clustering algorithm computes the centroids and iterates until we
+ it finds optimal centroid.
+ It assumes that the number of clusters are already known.
+ It is also called flat clustering algorithm.
+ The number of clusters identified from data by
+\end_layout
+
+\begin_layout Standard
+
+\size large
+algorithm is represented by ’K’ in K-means.Kmeans looks for a fixed number
+ (k) of clusters in a dataset.A cluster refers to a small group of objects.
+ Clustering is grouping those objects into clusters.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Applications of K-Means Clustering:-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+K-Means clustering is used in a variety of examples or business cases in
+ real life, like: >Academic performance >Diagnostic systems >Search engines
+ >Wireless sensor networks 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+The working of the K-Means algorithm is explained in the below steps:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-1: Select the value of K, to decide the number of clusters to be formed.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-2: Select random K points which will act as centroids.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-3: Assign each data point, based on their distance from the randomly
+ selected points (Centroid), to the nearest/closest centroid which will
+ form the predefined clusters.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-4: place a new centroid of each cluster.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-5: Repeat step no.3, which reassign each datapoint to the new closest
+ centroid of each cluster.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-6: If any reassignment occurs, then go to step-4 else go to Step 7.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Step-7: FINISH 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size larger
+K-Nearest Neighbor(KNN) Algorithm for Machine Learning:- 
+\end_layout
+
+\begin_layout Standard
+
+\size large
+1.
+ K-Nearest Neighbour is one of the simplest Machine Learning algorithms
+ based on Supervised Learning technique.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+2.
+ K-NN algorithm assumes the similarity between the new case/data and available
+ cases and put the new case into the category
+\end_layout
+
+\begin_layout Standard
+
+\size large
+that is most similar to the available categories.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+3.
+ K-NN algorithm stores all the available data and classies a new data point
+ based on the similarity.
+ This means when new data appears then it can be easily classied into a
+ well suite category by using K-
+\end_layout
+
+\begin_layout Standard
+
+\size large
+NN algorithm.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+4.
+ K-NN algorithm can be used for Regression as well as for Classication but
+ mostly it is used for the Classication problems.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+5.
+ K-NN is a non-parametric algorithm, which means it does not make any assumption
+ on underlying data.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+6.
+ It is also called a lazy learner algorithm because it does not learn from
+ the training set immediately instead it stores the dataset and at the time
+ of classication, it performs an action on the dataset.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+7.
+ KNN algorithm at the training phase just stores the dataset and when it
+ gets new data, then it classies that data into a category that is much
+ similar to the new data.
+ 
+\end_layout
+
+\end_body
+\end_document
