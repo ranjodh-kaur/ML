@@ -1,0 +1,979 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 2.5cm
+\rightmargin 1.25cm
+\bottommargin 1.25cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Machine Learning
+\end_layout
+
+\begin_layout Author
+Report File
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+BACHLORS OF TECHNOLOGY
+\end_layout
+
+\begin_layout Standard
+\align center
+Information Technology
+\end_layout
+
+\begin_layout Standard
+\align center
+SUBMITTED BY
+\end_layout
+
+\begin_layout Standard
+\align center
+JASMEEN KAUR GILL
+\end_layout
+
+\begin_layout Standard
+\align center
+University Roll Number : 2104390
+\end_layout
+
+\begin_layout Standard
+\align center
+College Roll No: 2121138
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/logo.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+GURU NANAK DEV ENGINEERING COLLEGE
+\end_layout
+
+\begin_layout Standard
+\align center
+LUDHIANA-141006, INDIA
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim : Introduction to Python Libraries 
+\end_layout
+
+\begin_layout Standard
+A Python library is a collection of related modules.
+ It contains bundles of code that can be used repeatedly in different programs.
+\end_layout
+
+\begin_layout Subsection
+Aim : Use of NumPy Library.
+\end_layout
+
+\begin_layout Standard
+NumPy: NumPy is a library for the Python programming language, adding support
+ for large, multi-dimensional arrays and matrices, along with a large collection
+ of high-level mathematical functions to operate on these arrays.
+\end_layout
+
+\begin_layout Standard
+Implementation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/np.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/numpy.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Aim: Use of pandas Library.
+\end_layout
+
+\begin_layout Standard
+Pandas: Pandas is a software library written for the Python programming
+ language for data manipulation and analysis.
+ In particular, it offers data structures and operations for manipulating
+ numerical tables and time series.
+\end_layout
+
+\begin_layout Standard
+Implementation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/pandas.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/pd.PNG
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Aim: Use of Matplotlib Library.
+\end_layout
+
+\begin_layout Standard
+Matplotlib: Matplotlib is a plotting library for the Python programming
+ language.
+ It is used to plot 2D graphics of datasets.
+\end_layout
+
+\begin_layout Standard
+Implementation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/mp.PNG
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Output:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/MATPLOT.PNG
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Aim: Use of Sciket - Learn library
+\end_layout
+
+\begin_layout Standard
+Sciket - Learn: Scikit-learn is a free machine learning library for Python.
+ It features various algorithms like support vector machine, random forests,
+ and k-neighbours, and it also supports Python numerical and scientific
+ libraries like NumPy and SciPy.
+ It is a key library for the Python programming language that is typically
+ used in machine learning projects.
+ It is used for clean, uniform and streamlined data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Introduction to concept of Data Science
+\end_layout
+
+\begin_layout Standard
+\align center
+Introduction to Data Science
+\end_layout
+
+\begin_layout Standard
+Data Science is a combination of multiple disciplines that uses statistics,
+ data analysis, and machine learning to analyze data and to extract knowledge
+ and insights from it.
+ Firstly we gather Raw Data then after organising it becomes information.
+ Data is of two types structured and unstructured.
+ Example of a data could be information collected for researsh paper.
+\end_layout
+
+\begin_layout Standard
+Dataset: Dataset is a collection of data.
+\end_layout
+
+\begin_layout Standard
+Database: It is an organised collection of data stored and accessed electronical
+y
+\end_layout
+
+\begin_layout Standard
+Database Table: In case of tabular data, dataset corresponds to one or more
+ database tables, where columns and rows represents record of dataset.
+\end_layout
+
+\begin_layout Standard
+Components of Data Science: Two main components of data science are visualisatio
+n and statistics.
+\end_layout
+
+\begin_layout Standard
+\align center
+Applications of Data Science 
+\end_layout
+
+\begin_layout Standard
+It is used in banking and electricity department ( for keeping record ).
+\end_layout
+
+\begin_layout Standard
+It is used in route planning and navigation.
+\end_layout
+
+\begin_layout Standard
+Also used to for see delays of flight/ship.
+\end_layout
+
+\begin_layout Standard
+It is used to forecast new year revenue.
+\end_layout
+
+\begin_layout Standard
+Used in stock market, e-commerce.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Introduction to concept of Artificial Intelligence
+\end_layout
+
+\begin_layout Standard
+\align center
+Introduction to Artificial Intelligence
+\end_layout
+
+\begin_layout Standard
+Artificial intelligence (AI) broadly refers to any human-like behavior displayed
+ by a machine or system.
+ In AI’s most basic form, computers are programmed to “mimic” human behavior
+ using extensive data from past examples of similar behavior.
+ 
+\end_layout
+
+\begin_layout Standard
+Strong AI: It can perform variety of functions eventually teaching itself
+ to solve for new problems.
+\end_layout
+
+\begin_layout Standard
+Weak AI: It can perform specific tasks like answering questions based on
+ input and output.
+\end_layout
+
+\begin_layout Standard
+\align center
+Applications of AI
+\end_layout
+
+\begin_layout Standard
+Personalized Shopping (preferences , interest)
+\end_layout
+
+\begin_layout Standard
+AI-powered Assistants (natural language procesing)
+\end_layout
+
+\begin_layout Standard
+Fraud Prevention and Creating Smart Content
+\end_layout
+
+\begin_layout Standard
+Voice Assistants (moniter student's data thoroughly) 
+\end_layout
+
+\begin_layout Standard
+Personalized Learning
+\end_layout
+
+\begin_layout Standard
+Autonomous Vehicles (electric cars)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Introduction to concept of Machine Learning
+\end_layout
+
+\begin_layout Standard
+\align center
+Introduction to Machine Learning
+\end_layout
+
+\begin_layout Standard
+Machine learning is programming computers to optimize a performance criterion
+ using example data or past experience .
+ We have a model defined up to some parameters, and learning is the execution
+ of a computer program to optimize the parameters of the model using the
+ training data or past experience.
+ The model may be predictive to make predictions in the future.
+ It is making machine learn things.
+\end_layout
+
+\begin_layout Standard
+\align center
+Machine Learning vs Traditional Learning
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/difference.PNG
+	scale 120
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Types of Machine Learning 
+\end_layout
+
+\begin_layout Standard
+Supervised Learning: Supervised machine learning requires labelled input
+ and output data during the training phase of the machine learning lifecycle.
+ This training data is often labelled.
+ Machine learn things from training data and then apply knowledge to test
+ data.
+\end_layout
+
+\begin_layout Standard
+Unsupervised Learning: Unsupervised machine learning is the training of
+ models on raw and unlabelled training data.
+ It is often used to identify patterns and trends in raw datasets, or to
+ cluster similar data into a specific number of groups.
+\end_layout
+
+\begin_layout Standard
+Semisupervised Learning: Semi-supervised machine learning is a combination
+ of supervised and unsupervised learning.
+ It uses a small amount of labeled data and a large amount of unlabeled
+ data, which provides the benefits of both unsupervised and supervised learning
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Regression Techniques used in Machine Learning
+\end_layout
+
+\begin_layout Standard
+Simple Linear Regression: Simple linear regression is a regression model
+ that estimates the relationship between one independent variable and one
+ dependent variable using a straight line.
+\end_layout
+
+\begin_layout Standard
+It's equation is y=ax+b, where x is input and y is output.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/linear.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Multiple Linera Regression: Multiple linear regression refers to a statistical
+ technique that is used to predict the outcome of a variable based on the
+ value of two or more variables.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/multiple.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Polynomial Regression: It is a form of regression analysis in which the
+ relationship between the independent variable x and the dependent variable
+ y is modelled as an nth degree polynomial in x.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/polynomial.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Support Vector Regression: It is an regression algorithm.
+ Our objective, when we are moving on with SVR, is to basically consider
+ the points that are within the decision boundary line.
+ Our best fit line is the hyperplane that has a maximum number of points.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/svr.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Decision Tree: It is a graphical representaion for getting all possible
+ solutions to a problem decision based on given conditions.
+ It is used to memic the human thinking ability.
+ It is mostely used for classification problems due to accuracy problem.
+ It has decision node which signifies decision eithe yes or no, leaf nodes
+ which signifies output of decision and branches showing decision rules.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/decision tree.PNG
+	scale 160
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Random Forest: It is a supervised machine learning algorithm made up of
+ decision trees.
+ Random Forest is used for both classification and regression.
+ It is better than decision tree as it predicts output with higher accuracy
+ and takes less training time.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/random forest.PNG
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+Aim: Classification Technique used in Machine Learning
+\end_layout
+
+\begin_layout Standard
+Classification: It is a supervised learning concept which basically categorizes
+ a set of data into classes.
+ The most common classification problems are – speech recognition, face
+ detection, handwriting recognition, document classification, etc.
+ It gives output in the form of yes or no.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/classification.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+K-nearest neighbors (kNN): It is supervised machine learning algorithm used
+ to solve both classification and regression tasks.
+ It gives output as 0 ( representing not) or 1 ( representing yes).
+\end_layout
+
+\begin_layout Standard
+Feature Scaling is a technique to standardize the independent features present
+ in the data in a fixed range.
+ It is between -3 to +3.
+ It can be reversed after task is being done called reverse scaling.
+\end_layout
+
+\begin_layout Standard
+Step 1: Select the value of K neighbors(say k=5)
+\end_layout
+
+\begin_layout Standard
+Step 2: Find the K (5) nearest data point for our new data point based on
+ euclidean distance(which we discuss later)
+\end_layout
+
+\begin_layout Standard
+Step 3: Among these K data points count the data points in each category
+\end_layout
+
+\begin_layout Standard
+Step 4: Assign the new data point to the category that has the most neighbors
+ of the new datapoint
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/euclaidian dis.PNG
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Confusion Matrix: It is a useful machine learning method which allows you
+ to measure precision and accuracy.
+ It is used for classification tasks.
+ False negative and false positive is caused due to the fault of algorithm.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/confusion matrix.PNG
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Example:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/cf.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Total = 106
+\end_layout
+
+\begin_layout Standard
+TN = 30, TP = 56
+\end_layout
+
+\begin_layout Standard
+FN = 8, FP = 56
+\end_layout
+
+\begin_layout Standard
+Accuracy = (TP+TN) / (TP+TN+FP+FN)
+\end_layout
+
+\begin_layout Standard
+Accuracy = 86 / 106
+\end_layout
+
+\begin_layout Standard
+Accuracy ( in % ) =81% 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Accuracy Paradox: The accuracy paradox is the paradoxical finding that accuracy
+ is not a good metric for predictive models when classifying in predictive
+ analytics.
+ 
+\end_layout
+
+\begin_layout Standard
+Example:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/accuracy paradox.PNG
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Total = 1000
+\end_layout
+
+\begin_layout Standard
+Accuracy = (TP + TN) / (TP + FP + FN + TN)
+\end_layout
+
+\begin_layout Standard
+Accuracy = (950 + 0) / (950 + 0 + 50 + 0)
+\end_layout
+
+\begin_layout Standard
+Accuracy = 950 / 1000 
+\end_layout
+
+\begin_layout Standard
+Accuracy ( in % ) = 95%
+\end_layout
+
+\begin_layout Standard
+Model is clearly biased as in any case it is saying that patient has no
+ tumor.
+ Hence, accuracy is not a reliable metric to determine a model performance.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aim: Clustering techniques used in Machine Learning
+\end_layout
+
+\begin_layout Standard
+Clustering: It is type of unsupervised learning.
+ It makes group out of available set of data.
+ Clustering is the task of dividing the data points into a number of groups
+ such that data points in the same groups are more similar to other data
+ poimts.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/cl.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Random Initialization Trap: It is a problem that occurs in K-means algorithm.
+ In it when the centroids of the clusters to be generated are explicitly
+ defined by the user then inconsistency may be created and this may sometimes
+ lead to generating wrong clusters in the dataset as shown in the given
+ figure.
+ In order to remove this apply k++ algorithm.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/a.PNG
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The correct random initialisation would lead to formation of given three
+ clusters as shown in figure below.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/aa.PNG
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+How to choose right number of clusters?
+\end_layout
+
+\begin_layout Standard
+In order to choose right number of clusters we will find WCSS ( within cluster
+ sum of squares ).
+ It's maximum is one when it has only one cluster and minimum value is zero
+ if every point is taken as cluster.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/formula.PNG
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Elbow Method: This method is used to know optimal number of clusters.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename C:/Users/Baldev Singh/Pictures/elbow.PNG
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
